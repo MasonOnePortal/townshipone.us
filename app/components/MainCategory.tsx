@@ -75,11 +75,9 @@ function MainCategory() {
 
   return (
     <div className={style.main_category_wrap}>
-      <div className="grid grid-cols-12  max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-7xl mx-auto">
         {list?.map((item) => (
-          <div key={item.id} className="col-span-3">
-            <MainCatgoryItem item={item} />
-          </div>
+          <MainCatgoryItem key={item.id} item={item} />
         ))}
       </div>
     </div>
