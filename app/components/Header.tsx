@@ -169,13 +169,19 @@ const Header = () => {
               <div className="flex items-center space-x-2">
                 <LogIn size={16} />
                 <div className="flex items-center space-x-1 text-sm">
-                  <span className="font-semibold cursor-pointer hover:text-[#eb3951] transition-colors">
+                  <Link
+                    href="https://masonone.us/auth/login"
+                    className="text-white font-semibold cursor-pointer hover:text-[#eb3951] transition-colors"
+                  >
                     Login
-                  </span>
-                  <span>/</span>
-                  <span className="font-semibold cursor-pointer hover:text-[#eb3951] transition-colors">
+                  </Link>
+                  <span className="text-white">/</span>
+                  <Link
+                    href="https://masonone.us/auth/register"
+                    className="text-white font-semibold cursor-pointer hover:text-[#eb3951] transition-colors"
+                  >
                     Register
-                  </span>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -183,13 +189,19 @@ const Header = () => {
             {/* Desktop Login/Register */}
             <div className="hidden lg:flex items-center space-x-2 py-4">
               <LogIn size={16} />
-              <span className="text-white font-semibold cursor-pointer hover:text-[#eb3951] transition-colors">
+              <Link
+                href="https://masonone.us/auth/login"
+                className="text-white font-semibold cursor-pointer hover:text-[#eb3951] transition-colors"
+              >
                 Login
-              </span>
+              </Link>
               <span className="text-white">/</span>
-              <span className="text-white font-semibold cursor-pointer hover:text-[#eb3951] transition-colors">
+              <Link
+                href="https://masonone.us/auth/register"
+                className="text-white font-semibold cursor-pointer hover:text-[#eb3951] transition-colors"
+              >
                 Register
-              </span>
+              </Link>
             </div>
           </div>
 
