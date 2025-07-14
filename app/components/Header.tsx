@@ -197,7 +197,7 @@ const Header = () => {
               </Link>
               <span className="text-white">/</span>
               <Link
-                href="https://masonone.us/auth/price-plan"
+                href="https://masonone.us/price-plan"
                 className="text-white font-semibold cursor-pointer hover:text-[#eb3951] transition-colors"
               >
                 Register
