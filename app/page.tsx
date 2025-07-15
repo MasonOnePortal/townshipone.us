@@ -3,7 +3,9 @@ import Content from "./components/Content";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import MainCategory from "./components/MainCategory";
-
+import BannerSlider from "./components/BannerSlider";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 export const metadata: Metadata = {
   title:
     "Deerfield & Symmes Township OH Portal - Local Business Directory & Services | MasonOne.US",
@@ -73,13 +75,14 @@ export default function TownshipsPage() {
   return (
     <>
       <Header />
+      <BannerSlider />
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <header className="py-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
+          <h1 className="text-[24px] font-bold text-gray-900 mb-4">
             Explore Local Listings & Services in Deerfield Township OH, and
             Symmes Township OH
           </h1>
-          <h2 className="text-2xl font-semibold text-gray-700 mb-6">
+          <h2 className="text-xxl font-semibold text-gray-700 mb-6">
             Your Premier Township OH Portal & Business Directory near Mason, OH
           </h2>
         </header>
