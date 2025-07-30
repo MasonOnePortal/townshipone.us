@@ -141,7 +141,7 @@ const CitiesDropdown = () => {
         onMouseEnter={() => setIsOpen(true)}
         onMouseLeave={() => setIsOpen(false)}
       >
-        <span>Ohio City Ohio City Portal's</span>
+        <span>Ohio City Portal's</span>
         <FaChevronDown
           className={`${style.dropdown_icon} ${isOpen ? style.rotate : ""}`}
         />
