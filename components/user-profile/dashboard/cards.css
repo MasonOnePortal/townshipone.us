@@ -1,0 +1,23 @@
+.c-shadow {
+  box-shadow: 0 2px 4px rgba(0, 0, 20, 0.08), 0 1px 2px rgba(0, 0, 20, 0.08);
+  border: 0;
+  border-radius: 0.5rem;
+}
+.rws-styl {
+  margin-top: 23px !important;
+}
+.styl-icon {
+  display: block;
+  text-decoration: none;
+  padding: 0px 5px 4px;
+
+  background-color: #f0f0f0;
+  margin-bottom: 2px;
+  font-size: 20px;
+}
+.fnt-styl {
+  font-size: 15px;
+}
+.card-bcd {
+  padding: 9px !important;
+}

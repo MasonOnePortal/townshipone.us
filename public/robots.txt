@@ -1,0 +1,39 @@
+User-agent: *
+
+Allow: /Googlebot
+
+Allow: /googlebot-image
+
+Allow: /googlebot-mobile
+
+Allow: /MSNBot
+
+Allow: /Slurp
+
+Allow: /Teoma
+
+Allow: /twiceler
+
+Allow: /Gigabot
+
+Allow: /Scrubby
+
+Allow: /Robozilla
+
+Allow: /Nutch
+
+Allow: /ia_archiver
+
+Allow: /baiduspider
+
+Allow: /naverbot
+
+Allow: /yeti
+
+Allow: /yahoo-mmcrawler
+
+Allow: /psbot
+
+Allow: /asterias
+
+Allow: /yahoo-blogs/v3.9

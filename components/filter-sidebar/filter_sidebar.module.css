@@ -1,0 +1,221 @@
+.wrap_search_filter {
+  background-color: #e7e7f1;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.filter_name {
+  position: relative;
+  padding-left: 10px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(5, 16, 54, 1);
+}
+.wrap_deals_data {
+  padding: 15px 0;
+}
+.wrap_search_filter h3 {
+  color: #051036;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+.wrap_search_filter h2 {
+  color: #051036;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+.checkmark {
+  background-color: #5f7693;
+}
+.rti--container {
+  border: 0 !important;
+}
+.rti--input:focus,
+.rti--input:active {
+  outline: 0 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.rti--container:focus,
+.rti--container:focus-visible,
+.rti--container:focus-within,
+.rti--container:active {
+  outline: 0 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+.wrap_search_input {
+  margin-bottom: 12px;
+  background-color: white;
+  padding: 8px 10px;
+  border-radius: 4px;
+}
+
+.wrap_search_input label {
+  margin-bottom: 0;
+  font-weight: 500;
+  color: #051036;
+  font-size: 14px;
+}
+
+.wrap_search_input input {
+  border: 0;
+  outline: 0;
+  box-shadow: inherit !important;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 500;
+  color: #504f4f;
+  font-size: 14px;
+}
+.tagsInputs {
+  background-color: aqua !important;
+}
+.search_btn_filter {
+  padding: 23px 0px 11px 1px;
+}
+.search_btn_filter button {
+  background-color: rgba(95, 118, 147, 1) !important;
+  border: 0;
+  width: 100%;
+  padding: 10px;
+  border-radius: 50px;
+}
+.container_lbl {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgba(5, 16, 54, 1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container_lbl input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark_lbl {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  border: 1px solid #5f7693;
+}
+
+.container_lbl:hover input ~ .checkmark_lbl {
+  background-color: #5f7693;
+}
+
+.container_lbl input:checked ~ .checkmark_lbl {
+  background-color: #5f7693;
+}
+
+.checkmark_lbl:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container_lbl input:checked ~ .checkmark_lbl:after {
+  display: block;
+}
+
+.container_lbl .checkmark_lbl:after {
+  left: 5px;
+  top: 1px;
+  width: 4px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.wrap_fltr_group h3 {
+  color: #051036;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.fillter_line {
+  border-top: 2px solid rgb(105 116 136 / 59%);
+}
+
+.fltr_nmbr span {
+  color: #697488;
+  font-family: Outfit;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.close_filter {
+  display: none;
+}
+
+/*Mobile*/
+@media (max-width: 767px) {
+  .close_filter {
+    display: none;
+  }
+  .close_filter,
+  .filte_btn_mbl {
+    display: block;
+  }
+
+  .close_filter svg {
+  }
+
+  .wrap_fltr_group h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+}
+
+/*small mobile devices*/
+@media (min-width: 320px) and (max-width: 480px) {
+}
+
+/*landscape mobiles devices*/
+@media (max-width: 736px) and (orientation: landscape) {
+}
+
+/*tablet devices (both orentations)*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .wrap_fltr_group h3 {
+    color: #051036;
+    font-size: 14px;
+  }
+
+  .container_lbl {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 13px;
+  }
+}
+
+/*For small screens and laptops devices*/
+@media (min-width: 980px) and (max-width: 1199px) {
+}

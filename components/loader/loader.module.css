@@ -1,0 +1,40 @@
+.custom_loader {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 8px solid #0000;
+  border-right-color: #5f769397;
+  position: relative;
+  animation: s4 1s infinite linear;
+}
+
+.custom_loader:before,
+.custom_loader:after {
+  content: "";
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  border: inherit;
+  animation: inherit;
+  animation-duration: 2s;
+}
+.loader_wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0%;
+  /* bottom: 25%; */
+  left: 0%;
+  right: 0%;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.custom_loader:after {
+  animation-duration: 4s;
+}
+
+@keyframes s4 {
+  100% {
+    transform: rotate(1turn);
+  }
+}

@@ -1,36 +1,124 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📘 Next.js Project - Complete Setup Guide
 
-## Getting Started
+This is a **Next.js** project repository. This guide will help you set up and run the project for both development and production environments.
 
-First, run the development server:
+---
+
+## 📁 Clone the Repository
+
+```bash
+git clone https://github.com/MasonOnePortal/masonbiz-frontend
+cd masonbiz-frontend
+```
+---
+
+## 📦 Install Dependencies
+
+Make sure you have **Node.js (v18 or later)** and **npm** installed.
+
+```bash
+npm install
+```
+
+This will install all the required node modules listed in the `package.json` file.
+
+---
+
+## 🔐 Setup Environment Variables
+
+Create a `.env.local` file in the project root and add necessary environment variables. For example:
+
+```env
+NEXT_PUBLIC_MAILCHIMP_API_KEY=abc123-us1
+NEXT_PUBLIC_MAILCHIMP_LIST_ID=xyz987654321
+NEXT_PUBLIC_API_URL=https://api.example.com
+NEXT_PUBLIC_URL=https://www.example.com
+NEXT_PUBLIC_STRIPE_PUBLIC_KEY=pk_test_12345abcdef67890
+NODE_TLS_REJECT_UNAUTHORIZED=0
+```
+
+> Refer to `.env.sample` if it's available in the repo for required variables.
+
+---
+
+## 🚀 Run the Development Server
+
+To start the development server with hot reloading:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🏗 Build for Production
 
-## Learn More
+To create an optimized production build:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This will generate a `.next` directory containing the production-ready files.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🔄 Start the Production Server
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+After building the project, start the production server using:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm start
+```
+
+By default, it runs on [http://localhost:3000](http://localhost:3000). To run on a different port:
+
+```bash
+PORT=5000 npm start
+```
+
+<!-- ---
+
+## 🧰 Optional: Using PM2 for Production
+
+If you're deploying to a server (like a VPS), use **PM2** to keep the server running in the background:
+
+```bash
+npm install -g pm2
+npm run build
+pm2 start npm --name "nextjs-app" -- start
+```
+
+To save and auto-start on system reboot:
+
+```bash
+pm2 save
+pm2 startup
+```
+
+---
+
+## 🔧 Useful Commands
+
+| Command            | Description                         |
+|-------------------|-------------------------------------|
+| `npm run dev`     | Start development server            |
+| `npm run build`   | Build the project for production    |
+| `npm start`       | Start the production server         |
+| `pm2 start`       | Run production using PM2            |
+
+---
+
+## 📚 Additional Notes
+
+- Make sure your firewall allows access to the port you're running the app on.
+- If using **Nginx** as a reverse proxy, configure it to forward traffic to your Next.js app.
+- Always restart the server after making changes in `.env.local` or production code.
+-->
+
+## 📚 Additional Notes
+[Architecture Diagrams Link](https://app.eraser.io/workspace/Ux8HAqE3Acfn4DrUns0r?origin=share)
+
+Happy Coding! 🚀 

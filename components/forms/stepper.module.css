@@ -1,0 +1,110 @@
+.horizontal_stepper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.stepper_header {
+  display: flex;
+  justify-content: space-between !important;
+}
+
+.step {
+  display: inline-flex;
+  display: -webkit-inline-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  margin: 0 15px 15px 0;
+  background: #e3ecf6;
+  box-shadow: 0px 1px 2px rgba(55, 65, 81, 0.08);
+  padding: 10px 0px 10px 10px;
+  position: relative;
+  text-align: left;
+  opacity: 0.8;
+  font-size: 13px;
+  font-weight: 500;
+  width: 180px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.step::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 0;
+  height: 0;
+  left: 100%;
+  top: 0;
+  border-left: 16px solid #e3ecf6;
+  border-right: 10px solid transparent;
+  border-top: 21px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+.step.active {
+  background-color: #5f7693;
+  color: #fff;
+}
+
+.step.active::after {
+  border-left: 15px solid #5f7693;
+}
+
+.stepper_content {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.step_content {
+  text-align: center;
+  font-size: 24px;
+}
+.stepper_header span {
+  background-color: #7f91a9;
+  width: 20px;
+  display: inline-block;
+  height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  line-height: 19px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.stepper_header .active span {
+  background-color: #fff;
+  color: #7f91a9;
+}
+
+.step_mob{
+  display: none;
+}
+/*small mobile devices*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .step_mob{
+    display: block;
+  }
+  .step_web{
+    display: none;
+  }
+}
+
+/*landscape mobiles devices*/
+@media (max-width: 736px) and (orientation: landscape) {
+
+}
+
+/*tablet devices (both orentations)*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/*For small screens and laptops devices*/
+@media (min-width: 980px) and (max-width: 1199px) {
+}

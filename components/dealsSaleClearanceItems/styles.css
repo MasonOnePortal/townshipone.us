@@ -1,0 +1,99 @@
+.promo_dec_left h2 {
+  font-size: 23px;
+}
+.promo_dec_left img {
+  width: 100%;
+  border-radius: 7px;
+  height: 230px;
+  object-fit: cover;
+}
+.styl_btn {
+  text-align: end;
+  margin-bottom: 7px;
+}
+.btns_styl {
+  text-align: end;
+}
+.rt_r_cl_btn {
+  background-color: #5f7693 !important;
+  border-color: #5f7693 !important;
+  font-size: 13px !important;
+}
+.add {
+  background-color: #5f7693 !important;
+  border-color: #5f7693 !important;
+  font-size: 13px !important;
+  margin-left: 14px;
+  color: white;
+  padding: 9px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.main_info_promo {
+  border: 1px solid #d2d2d2;
+  padding: 6px;
+  border-radius: 7px;
+}
+
+.promo_tbl {
+  padding: 12px 0;
+}
+
+.promo_tbl table {
+  margin-bottom: 0;
+}
+.promo_tbl tbody tr td {
+  border-bottom: 0 !important;
+}
+.promo_tbl table table td {
+  border: 0;
+  text-align: left;
+}
+
+.promo_tbl table tr {
+  border: 0;
+}
+
+.promo_tbl table th {
+  border: 0;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.promo_tbl table th svg {
+  fill: #5f7693;
+  width: 30px;
+}
+
+.promo_r_sec p {
+  margin-bottom: 0;
+  font-size: 15px;
+  padding: 12px 0 0;
+}
+
+.coupon_value {
+  padding: 9px 15px;
+  margin-right: 10px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 50px;
+  background: #f8f8f8;
+  border-radius: 3px;
+  color: #111;
+  text-align: center;
+}
+
+.coupon_copy {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  background: #5f7693;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  cursor: pointer;
+  margin-top: 0;
+  border: 0;
+}

@@ -1,0 +1,40 @@
+.info_src_ara {
+}
+.info_src_ara input {
+  margin-left: 15px;
+}
+.wrap_search_area {
+  width: 70%;
+}
+
+/*small mobile devices*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .info_src_ara{
+    display: block !important;
+  }
+  .wrap_search_area{
+    width: 100%;
+  }
+  .wrap_search_area  input{
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .wrap_search_area .input-group{
+    display: block;
+    width: 100%;
+    padding-bottom: 12px;
+  }
+}
+
+/*landscape mobiles devices*/
+@media (max-width: 736px) and (orientation: landscape) {
+}
+
+/*tablet devices (both orentations)*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/*For small screens and laptops devices*/
+@media (min-width: 980px) and (max-width: 1199px) {
+}

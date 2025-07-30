@@ -1,0 +1,245 @@
+.auth_sec_wrap {
+  background-color: #fff;
+  padding: 50px;
+}
+
+.icon_style {
+  text-align: center;
+}
+.icon_style h4 {
+  font-size: 24px !important;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.icon_styless {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+.icon_styles {
+  font-size: 77px;
+  color: #5f7693;
+  /* background-color: #5f7693; */
+}
+.auth_inner_data {
+  padding: 25px 35px;
+  max-width: 460px;
+  border-radius: 10px;
+  background-color: #eff2f6;
+  margin: 0 auto;
+  box-shadow: 0 3px 6px hsl(0deg 0% 0% / 3%);
+}
+.auth_inner_datas {
+  padding: 16px 10px;
+  max-width: 460px;
+  border-radius: 10px;
+  /* background-color: #eff2f6; */
+  margin: 0 auto;
+  box-shadow: 0 3px 6px hsl(0deg 0% 0% / 3%);
+}
+
+.auth_inner_data h5 {
+  font-weight: 300;
+  font-size: 16px;
+  color: #959595;
+  margin-bottom: 25px;
+}
+
+.auth_form p {
+  margin-bottom: 4px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.auth_input {
+  border-color: #dee2e6 !important;
+  outline: 0 !important;
+  box-shadow: initial !important;
+  padding: 10px 0 !important;
+  background-color: #ffffff !important;
+  border: 0 !important;
+}
+.hedding_psw {
+  text-align: center;
+  padding-bottom: 7px;
+  text-decoration: underline;
+}
+.inpt_icon {
+  border: 0 !important;
+  background-color: #ffffff !important;
+  color: #5f7693 !important;
+}
+
+.login_remember label {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.forger_psw a {
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.form-check-input:checked {
+  background-color: #5f7693;
+  border-color: #5f7693;
+}
+
+.auth_btn button {
+  width: 100%;
+  margin: 30px 0 20px;
+  background-color: #5f7693;
+  padding: 7px;
+  border-radius: 4px;
+}
+
+.login_with_social h4 {
+  font-size: 14px;
+  position: relative;
+  z-index: 99;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px !important;
+}
+
+.login_with_social h4 span {
+  background-color: #eff2f6;
+  position: relative;
+  z-index: 9;
+  padding: 0 8px;
+}
+
+.login_with_social h4:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #5f769338;
+  top: 9px;
+}
+.profile_heading h2 {
+  font-size: 30px;
+  font-size: 20px;
+}
+.login_with_social a {
+  margin: 0 5px;
+  border: 1px solid #5f76932e;
+  padding: 3px 0 6px;
+  width: 40px;
+  color: white !important;
+  display: inline-block;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.facebook_bg {
+  background-color: #4267b2;
+}
+
+.google_bg {
+  background-color: #db4437;
+}
+
+.instagram_bg {
+  background-color: #833ab4;
+}
+
+.register_here {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.register_here a {
+  text-decoration: none;
+}
+
+.signup_wrap {
+  max-width: 500px !important;
+}
+.signup_wrap1 {
+  max-width: 100% !important;
+}
+
+.reset_btn button {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.error {
+  border: 1px solid #d53343;
+  border-radius: 6px;
+}
+.textColor {
+  color: #d53343;
+  font-size: 14px !important;
+  margin-top: -13px;
+}
+.button_style {
+  background-color: #5f7693 !important;
+  text-align: center !important;
+  width: 100%;
+  text-align: center;
+}
+.button_style:hover {
+  color: var(--bs-btn-hover-color) !important;
+  background-color: var(--bs-btn-hover-bg) !important;
+  border-color: var(--bs-btn-hover-border-color) !important;
+}
+.rounded-button {
+  background-color: #007bff !important;
+  color: #d81818 !important;
+  border-radius: 50px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.rst_psw_wrp {
+  max-width: 50%;
+  background-color: #f7f7f7;
+  padding: 22px;
+  border-radius: 6px;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+  .auth_inner_data {
+    padding: 13px;
+  }
+  .rst_psw_wrp {
+    width: 100%;
+    max-width: 100%;
+    background-color: #fff;
+  }
+  .auth_sec_wrap {
+    padding: 0;
+  }
+
+  .auth_sec_wrap {
+    padding: 30px 0;
+  }
+}
+/*small mobile devices*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .rst_psw_wrp {
+    width: 100%;
+    max-width: 100%;
+    background-color: #fff;
+  }
+}
+
+/*landscape mobiles devices*/
+@media (max-width: 736px) and (orientation: landscape) {
+}
+
+/*tablet devices (both orentations)*/
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/*For small screens and laptops devices*/
+@media (min-width: 980px) and (max-width: 1199px) {
+}
+.border {
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+}

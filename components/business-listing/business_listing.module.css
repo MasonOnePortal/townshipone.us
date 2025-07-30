@@ -1,0 +1,56 @@
+.business_listing_wrap {
+  padding: 50px;
+}
+
+.button_right a {
+  display: table;
+  margin: 0 auto;
+  margin-right: 0;
+}
+
+.all_business_wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.business_img {
+  width: 45px;
+  margin-bottom: 10px;
+}
+
+.business_name {
+  color: rgba(7, 9, 43, 1);
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 0px;
+  line-height: 11px;
+}
+
+.button_right {
+  text-align: right !important;
+}
+
+.button_right button {
+  color: white;
+}
+
+.business_link {
+  border-radius: 10px;
+  border: 2px solid rgba(205, 205, 205, 0.62);
+  background: #eff2f6;
+  width: 85%;
+  height: 100px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding: 11px;
+  margin: 8px 0px;
+}
+
+.business_name {
+  color: rgba(7, 9, 43, 1);
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 0px;
+  line-height: 11px;
+}
