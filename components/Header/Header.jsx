@@ -123,12 +123,12 @@ const CitiesDropdown = () => {
   // Aap yahan apni cities ki list add kar sakte hain
   const cities = [
     { name: "Cincinnati", url: "http://cincinnatione.us/" },
-    { name: "West Chester", url: "https://Townshipone.net" },
+    { name: "West Chester", url: "https://westchesterone.net" },
+    { name: "Loveland", url: "https://lovelandone.us" },
+    { name: "Lebanon", url: "https://lebanonone.us" },
+    { name: "Fairfield", url: "https://fairfieldone.us" },
     { name: "Township", url: "https://townshipone.us" },
-    { name: "Township", url: "https://townshipone.us" },
-    { name: "Township", url: "https://townshipone.us" },
-    { name: "Township", url: "https://townshipone.us" },
-    { name: "Township", url: "https://townshipone.us" },
+    { name: "Hamilton", url: "https://hamiltonone.us" },
     { name: "Middletown", url: "https://middletownone.us" },
     { name: "Mason", url: "https://masonone.us" },
   ];
