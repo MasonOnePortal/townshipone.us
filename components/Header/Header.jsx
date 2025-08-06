@@ -128,7 +128,7 @@ const CitiesDropdown = () => {
     { name: "Lebanon", url: "https://lebanonone.us" },
     { name: "Fairfield", url: "https://fairfieldone.us" },
     {
-      name: "Deerfield Township & Symmes Township, OH",
+      name: "Township",
       url: "https://townshipone.us",
     },
     { name: "Hamilton", url: "https://hamiltonone.us" },
@@ -144,7 +144,7 @@ const CitiesDropdown = () => {
         onMouseEnter={() => setIsOpen(true)}
         onMouseLeave={() => setIsOpen(false)}
       >
-        <span>Ohio City Portal's</span>
+        <span>Other Ohio City Portal's</span>
         <FaChevronDown
           className={`${style.dropdown_icon} ${isOpen ? style.rotate : ""}`}
         />

@@ -19,7 +19,7 @@ function RealEstate() {
       <div>
         <Banner
           img={second}
-          bannerHeading="Real Estate and Business Listings Township City OH"
+          bannerHeading="Real Estate Listings Township City OH"
           bannerContent="Explore Residential and Commercial Listings"
         />
         <Breadcrumb pagename="Realty Listings" />

@@ -32,7 +32,7 @@ function AboutUs() {
         bannerHeading="About Us"
         bannerContent="Empowering Communities, Connecting Lives: Discover Your Local Hub with Us!"
       />
-      <Breadcrumb pagename="About Deerfield Township & Symmes Township, OH" />
+      <Breadcrumb pagename="About DeerfieldOne" />
       <div>
         <div className="container">
           <div className={style.wrap_al_data}>
@@ -51,8 +51,8 @@ function AboutUs() {
               </div>
               <div className="col-md-6">
                 <div className={style.abt_rgt_txt}>
-                  <h5>About Deerfield Township & Symmes Township, OH</h5>
-                  <h2>Community under one Platform</h2>
+                  <h2>About TownshipOne.US</h2>
+                  <h5>Community under one Platform</h5>
                   <p>
                     Welcome to our website, where community connection and local
                     empowerment are at the heart of everything we do. We pride
