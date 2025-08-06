@@ -5,7 +5,7 @@ export const InfoMessage = () => {
       <h5 className="pb-3 text-center infoMessage">
         If you find more then one record on
         <Link href="https://townshipone.us/" className="click_resend">
-          Townshipone.us
+        Deerfield Township & Symmes Township, OH
         </Link>
         , please submit an inquiry on the
         <Link href="/contact-us" className="click_resend px-1">

@@ -9,9 +9,9 @@ import { Loading } from "@/components/Loading";
 import { Suspense } from "react";
 
 export const metadata = {
-  title: "Contact Township | Connect with Our Team in Township, OH",
+  title: "Contact Township | Connect with Our Team in Deerfield Township & Symmes Township, OH",
   description:
-    "Get in touch with Township for inquiries, support, or feedback. We're here to assist you with all your needs in Township, OH.",
+    "Get in touch with Township for inquiries, support, or feedback. We're here to assist you with all your needs in Deerfield Township & Symmes Township, OH.",
   alternates: {
     canonical: `https://townshipone.us/contact-us`,
   },
@@ -25,7 +25,7 @@ export default async function ContactPage() {
         <meta name="description" content={metadata.description} />
       </Head>
       {/* <Banner img={second} bannerHeading="Contact Us" /> */}
-      <Banner img={second} bannerHeading="Contact Township – We're Here to Help" />
+      <Banner img={second} bannerHeading="Contact Deerfield Township & Symmes Township, OH – We're Here to Help" />
       <Breadcrumb pagename="Contact Us" />
       <ContactUs />
     </Suspense>

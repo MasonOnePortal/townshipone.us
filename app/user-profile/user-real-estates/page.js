@@ -7,10 +7,10 @@ import { QueryRequestProvider } from "@/components/user-profile/add-service/real
 export const metadata = {
   title: {
     absolute:
-      "Discover Your Dream Home in Township, Ohio - Premier Real Estate Listings",
+      "Discover Your Dream Home in Deerfield Township & Symmes Township, OHio - Premier Real Estate Listings",
   },
   description:
-    "Explore exclusive real estate options in Township, Ohio. Find your perfect home with our expert guidance and comprehensive listings. Your dream home awaits!",
+    "Explore exclusive real estate options in Deerfield Township & Symmes Township, OHio. Find your perfect home with our expert guidance and comprehensive listings. Your dream home awaits!",
 };
 
 export default function page() {

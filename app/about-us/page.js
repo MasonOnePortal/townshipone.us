@@ -12,9 +12,9 @@ import Head from "next/head";
 
 export const metadata = {
   title:
-    "About TownshipOne | Empowering Township, OH Communities & Businesses",
+    "About TownshipOne | Empowering Deerfield Township & Symmes Township, OH Communities & Businesses",
   description:
-    "Discover TownshipOne's mission to connect and empower the Township, OH community through comprehensive local resources and services.",
+    "Discover TownshipOne's mission to connect and empower the Deerfield Township & Symmes Township, OH community through comprehensive local resources and services.",
   alternates: {
     canonical: `https://townshipone.us/about-us`,
   },
@@ -32,7 +32,7 @@ function AboutUs() {
         bannerHeading="About Us"
         bannerContent="Empowering Communities, Connecting Lives: Discover Your Local Hub with Us!"
       />
-      <Breadcrumb pagename="About TownshipOne – Connecting Township, OH Communities" />
+      <Breadcrumb pagename="About Deerfield Township & Symmes Township, OH" />
       <div>
         <div className="container">
           <div className={style.wrap_al_data}>
@@ -51,7 +51,7 @@ function AboutUs() {
               </div>
               <div className="col-md-6">
                 <div className={style.abt_rgt_txt}>
-                  <h5>About TownshipOne.US</h5>
+                  <h5>About Deerfield Township & Symmes Township, OH</h5>
                   <h2>Community under one Platform</h2>
                   <p>
                     Welcome to our website, where community connection and local

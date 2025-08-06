@@ -14,7 +14,7 @@ import Head from "next/head";
 const BlogLayout = ({ children }) => {
   const { blogId, categoryId } = useParams();
   // const [pathName, setPathName] = useState("Blog Listings");
-  const [pathName, setPathName] = useState("TownshipOne Blogs: Your Source for Township, OH Insights");
+  const [pathName, setPathName] = useState("City Pulse <br/> Your Source for Deerfield Township & Symmes Township, OH Insights");
   const { data, isLoading } = useGetOneBlogCategoryQuery(categoryId, {
     refetchOnMountOrArgChange: true,
     skip: !!categoryId ? false : true,
@@ -27,7 +27,7 @@ const BlogLayout = ({ children }) => {
     } else {
       // setPathName("Blog Listings");
       setPathName(
-        "TownshipOne Blogs: Your Source for Township, OH Insights"
+        "TownshipOne Blogs: Your Source for Deerfield Township & Symmes Township, OH Insights"
       );
     }
   }, [categoryId, blogId, data]);
@@ -37,12 +37,12 @@ const BlogLayout = ({ children }) => {
       <BlogProvider>
         <Head>
           <title>
-            TownshipOne Blogs: Local News, Events & Business Insights in
-            TownshipOne, OH & Surrounding Areas
+          Deerfield Township & Symmes Township, OH Blogs: Local News, Events & Business Insights in
+          Deerfield Township & Symmes Township, OH, OH & Surrounding Areas
           </title>
           <meta
             name="description"
-            content="Explore TownshipOne's blog for the latest local news, events, business insights, and community stories in Township, OH."
+            content="Explore TownshipOne's blog for the latest local news, events, business insights, and community stories in Deerfield Township & Symmes Township, OH."
           />
         </Head>
         <Banner

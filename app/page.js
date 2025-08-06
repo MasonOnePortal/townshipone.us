@@ -5,7 +5,7 @@ export const metadata = {
   title:
     "Township OH Business Directory | Local Business Listings & Services",
   description:
-    "Discover local businesses, deals, real estate, and job opportunities in Township OH, and surrounding areas. Your complete Greater Township Ohio business directory.",
+    "Discover local businesses, deals, real estate, and job opportunities in Township OH, and surrounding areas. Your complete  Township Ohio business directory.",
   keywords: [
     "Township Ohio",
     "Township City OH",
@@ -41,7 +41,7 @@ export const metadata = {
     title:
       "Township OH Business Directory | Local Business Listings & Services",
     description:
-      "Discover local businesses, deals, real estate, and job opportunities in Township OH and surrounding areas. Your complete Greater Township Ohio business directory.",
+      "Discover local businesses, deals, real estate, and job opportunities in Township OH and surrounding areas. Your complete  Township Ohio business directory.",
     siteName: "Township City Portal",
     images: [
       {
@@ -65,7 +65,7 @@ export const metadata = {
   },
   other: {
     "geo.region": "US-OH",
-    "geo.placename": "Township, Ohio",
+    "geo.placename": "Deerfield Township & Symmes Township, OHio",
     "geo.position": "39.3601;-84.3099",
     ICBM: "39.3601, -84.3099",
   },

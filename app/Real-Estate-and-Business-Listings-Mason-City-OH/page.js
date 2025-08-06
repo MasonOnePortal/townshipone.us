@@ -74,7 +74,7 @@ export const metadata = {
   },
   other: {
     "geo.region": "US-OH",
-    "geo.placename": "Township, Ohio",
+    "geo.placename": "Deerfield Township & Symmes Township, OHio",
     "geo.position": "39.5151;-84.3983",
     ICBM: "39.5151, -84.3983",
   },

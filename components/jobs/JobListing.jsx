@@ -17,16 +17,18 @@ function JobListing() {
       <div>
         <Banner
           img={second}
-          bannerHeading="Explore Township City Jobs"
+          bannerHeading="Explore Deerfield Township & Symmes Township, OH City Jobs"
           bannerContent="Opportunities in Different Industries"
         />
         <Breadcrumb pagename="Career Opportunities" />
       </div>
       <div className="container">
-        <h1 className="fs-5 mb-3">Job Listings in Township, OH</h1>
-        <h1 className="fs-6">
-          Job Listings in Township OH and Surrounding Areas
+        <h1 className="fs-5 mb-3">
+          Job Listings in Deerfield Township & Symmes Township, OH
         </h1>
+        {/* <h1 className="fs-6">
+          Job Listings in Township OH and Surrounding Areas
+        </h1> */}
         <p className="contentCss">
           Find the latest <strong> jobs in Township OH</strong>
           .<br />

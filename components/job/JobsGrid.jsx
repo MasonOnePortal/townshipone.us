@@ -60,7 +60,9 @@ function JobsGrid() {
     <div className={style.wrap_jobs_grid}>
       <div className="container">
         <div className="section_Heading">
-          <h2>Current Job Openings in Township, OH</h2>
+          <h2>
+            Current Job Openings in Deerfield Township & Symmes Township, OH
+          </h2>
         </div>
         <div className="wrap_job_slider_data">
           <Slider {...settings}>

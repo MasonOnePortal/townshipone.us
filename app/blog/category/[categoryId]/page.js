@@ -8,11 +8,11 @@ export default async function BlogsCategoryPage() {
     <Suspense fallback={<Loading />}>
       <Head>
         <title>
-          Township | Stay Updated with the Latest News and Insights Blog
+        Deerfield Township & Symmes Township, OH | Stay Updated with the Latest News and Insights Blog
         </title>
         <meta
           name="description"
-          content="Explore the wealth of insightful news, timely news updates, and engaging community stories on Township City. Stay up to date with happenings in Township | US"
+          content="Explore the wealth of insightful news, timely news updates, and engaging community stories on Deerfield Township & Symmes Township, OH City. Stay up to date with happenings in Deerfield Township & Symmes Township, OH | US"
         />
       </Head>
       <BlogByCategory />

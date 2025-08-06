@@ -82,7 +82,7 @@ const BusinessCategoryList = async ({ params: { categoryId } }) => {
             contributors to the economy of our region, offering a wide variety
             of products and services to cater to diverse needs.
             <br /> <br />
-            <strong>From TownshipOne OH,</strong>, discover unique offerings
+            <strong>From Deerfield Township & Symmes Township, OH,</strong>, discover unique offerings
             that showcase the essential role these businesses play in enriching
             our vibrant community.
           </p>

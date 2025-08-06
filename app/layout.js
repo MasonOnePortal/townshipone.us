@@ -6,7 +6,7 @@ export const metadata = {
   title: {
     absolute: "",
     default:
-      "Township, OH Deals, Sales, Jobs, Real Estate Listings | TownshipOne",
+      "Deerfield Township & Symmes Township, OH Deals, Sales, Jobs, Real Estate Listings | TownshipOne",
     template: "%s",
   },
   alternates: {
@@ -16,7 +16,7 @@ export const metadata = {
     google: "ew3hykJZSUbYAz8w2t07b8CPCe_Z1k6NQLRu9XsRYQQ",
   },
   description:
-    "Connect with Township, OH's top businesses, jobs, and real estate. Discover local deals or post your listing on TownshipOne!",
+    "Connect with Deerfield Township & Symmes Township, OH's top businesses, jobs, and real estate. Discover local deals or post your listing on TownshipOne!",
   robots: "index, follow",
   author: "TownshipOne US",
 

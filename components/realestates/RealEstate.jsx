@@ -26,9 +26,10 @@ function RealEstate() {
       </div>
       <div className="container">
         <h1 className="fs-4 mb-3">
-          Real Estate and Business Listings in Township, OH
+          Real Estate Listings in Deerfield Township & Symmes
+          Township, OH
         </h1>
-        <h4 className="fs-6">Real Estate Listings in Township OH</h4>
+        {/* <h4 className="fs-6">Real Estate Listings in Deerfield Township & Symmes Township, OH OH</h4> */}
         <Content contentData="Browse through a collection of residential and commercial properties available in our real estate listings. Whether you're searching for a home or a business space, you'll find a diverse range of options to suit your needs and preferences." />
       </div>
 

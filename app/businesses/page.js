@@ -22,7 +22,7 @@ export const metadata = {
     "Business Listings Township OH",
     "Township OH company listings",
     "Business Directory Township OH",
-    "Greater Township Ohio business listings",
+    " Township Ohio business listings",
     "Township Ohio business registration",
     "Deerfield Township businesses",
     "Township OH business directory",
@@ -72,7 +72,7 @@ export const metadata = {
   },
   other: {
     "geo.region": "US-OH",
-    "geo.placename": "Township, Ohio",
+    "geo.placename": "Deerfield Township & Symmes Township, OHio",
     "geo.position": "39.5151;-84.3983", // Updated position for Township
     ICBM: "39.5151, -84.3983",
   },
@@ -130,7 +130,7 @@ const BusinessList = () => {
       />
       <Banner
         img={second}
-        bannerHeading="Township, OH Business Directory"
+        bannerHeading="Deerfield Township & Symmes Township, OH Business Directory"
         bannerContent="Discover Business Sectors"
       />
 
@@ -144,7 +144,7 @@ const BusinessList = () => {
           </div>
         </div>
         {/* <div>
-          <h1 className="fs-4 mb-3">Township, OH Business Directory</h1>
+          <h1 className="fs-4 mb-3">Deerfield Township & Symmes Township, OH Business Directory</h1>
           <h1 className="fs-6">
             Business Listings in Township OH and Surrounding Areas
           </h1>
@@ -162,23 +162,23 @@ const BusinessList = () => {
             </p>
             <p>
               Discover what each town has to offer with our comprehensive
-              listings designed to connect you with the best of the Greater
+              listings designed to connect you with the best of the 
               Township area.
             </p>
           </div>
         </div> */}
         <div className="container">
-          <h1 className="fs-5">Township, OH Business Directory</h1>
-          <h6>Business Listings in Township OH and Surrounding Areas</h6>
+          <h1 className="fs-5">Deerfield Township & Symmes Township, OH Business Directory</h1>
+          <h6>Business Listings in Deerfield Township & Symmes Township, OH and Surrounding Areas</h6>
           <p>
-            Explore a wide range of business listings in Township, OH. Our
+            Explore a wide range of business listings in Deerfield Township & Symmes Township, OH. Our
             community features a diverse array of businesses across various
             categories, offering convenient access to local services, shops, and
             more.
           </p>
           <p>
             Discover what each town has to offer with our comprehensive listings
-            designed to connect you with the best in the Township area.
+            designed to connect you with the best in the Deerfield Township & Symmes Township, OH area.
           </p>
         </div>
         <div>

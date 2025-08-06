@@ -28,7 +28,7 @@ export const metadata = {
     "Deerfield Township community",
     "Township OH community",
     "West Chester Township community",
-    "Greater Township area community",
+    " Township area community",
   ],
   alternates: {
     canonical: "https://townshipone.us/community/",
@@ -70,7 +70,7 @@ export const metadata = {
   },
   other: {
     "geo.region": "US-OH",
-    "geo.placename": "Township, Ohio",
+    "geo.placename": "Deerfield Township & Symmes Township, OHio",
     "geo.position": "39.5151;-84.3983",
     ICBM: "39.5151, -84.3983",
   },

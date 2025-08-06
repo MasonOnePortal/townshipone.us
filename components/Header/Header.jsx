@@ -127,7 +127,10 @@ const CitiesDropdown = () => {
     { name: "Loveland", url: "https://lovelandone.us" },
     { name: "Lebanon", url: "https://lebanonone.us" },
     { name: "Fairfield", url: "https://fairfieldone.us" },
-    { name: "Township", url: "https://townshipone.us" },
+    {
+      name: "Deerfield Township & Symmes Township, OH",
+      url: "https://townshipone.us",
+    },
     { name: "Hamilton", url: "https://hamiltonone.us" },
     { name: "Middletown", url: "https://middletownone.us" },
     { name: "Mason", url: "https://masonone.us" },
@@ -194,7 +197,7 @@ const Menu = ({ sidebarStatus, toggleSidebar }) => {
           <FaXmark />
         </div>
       </div>
-      <ul className="list-inline">
+      <ul className="list-inline" style={{ textAlign: "center" }}>
         <li className="list-inline-item">
           <Link href="/">Home</Link>
         </li>
@@ -230,7 +233,7 @@ const Menu = ({ sidebarStatus, toggleSidebar }) => {
         <li className="list-inline-item">
           <Link href="/about-us">About Us</Link>
         </li>
-        <li className="list-inline-item">
+        <li className="list-inline-item" style={{ marginTop: "10px" }}>
           <CitiesDropdown />
         </li>
       </ul>

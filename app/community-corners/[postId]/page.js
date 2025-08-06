@@ -14,7 +14,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
   return {
     title: capitalize(info?.question),
     description:
-      "Discover the heart of TownshipOne with our Community Corner! A hub of local activities, events, and connections. Join us to build a thriving community together. #TownshipOne #CommunityLife",
+      "Discover the heart of Deerfield Township & Symmes Township, OH with our Community Corner! A hub of local activities, events, and connections. Join us to build a thriving community together. #Deerfield Township & Symmes Township, OH #CommunityLife",
     openGraph: {
       images: [info.thumbnail, ...previousImages],
     },

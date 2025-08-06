@@ -75,7 +75,7 @@ export const metadata = {
   },
   other: {
     "geo.region": "US-OH",
-    "geo.placename": "Township, Ohio",
+    "geo.placename": "Deerfield Township & Symmes Township, OHio",
     "geo.position": "39.5151;-84.3983",
     ICBM: "39.5151, -84.3983",
   },
@@ -142,23 +142,22 @@ const DealSale = () => {
         </title>
         <meta
           name="description"
-          content="Explore exclusive deals and discounts from Township, OH businesses. Find promotions on dining, shopping, services, and more at TownshipOne."
+          content="Explore exclusive deals and discounts from Deerfield Township & Symmes Township, OH businesses. Find promotions on dining, shopping, services, and more at Deerfield Township & Symmes Township, OH."
         />
       </Head>
       <div>
         <Banner
           img={second}
-          bannerHeading="Township City Savings"
-          bannerContent="Save Big with Township's Local Deals and Offers"
+          bannerHeading="Deerfield Township & Symmes Township, OH City Savings"
+          bannerContent="Save Big with Deerfield Township & Symmes Township, OH's Local Deals and Offers"
         />
-        <Breadcrumb pagename="Township City Savings" />
+        <Breadcrumb pagename="Deerfield Township & Symmes Township, OH City Savings" />
         <div className="container">
           <h1 className="fs-4 mb-3">
-            Township, OH Business Deals & Promotions
+            Deerfield Township & Symmes Township, OH Business Deals & Promotions
           </h1>
           <h6>
-            Exclusive Deals, Discounts, Promotions, and Clearance in Township
-            OH
+            Exclusive Deals, Discounts, Promotions, and Clearance in Deerfield Township & Symmes Township, OH
           </h6>
           {/* <h3 className="fs-6">
             Take advantage of these limited time offers to save big and find

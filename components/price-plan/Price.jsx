@@ -72,7 +72,7 @@ function Price() {
         <div className={style.price_plan_wrapper}>
           <h1 className={style.price_main_hdng}>Plans & Subscriptions</h1>
           <div className="container">
-            <Content contentData="Unlock greater business opportunities with our diverse plans and subscription offerings. Showcase your sales, deals, and promotions effortlessly to reach more customers and drive growth to enhence profitability" />
+            <Content contentData="Unlock  business opportunities with our diverse plans and subscription offerings. Showcase your sales, deals, and promotions effortlessly to reach more customers and drive growth to enhence profitability" />
           </div>
           <div className="row">
             {plansInfo?.map((plan, index) => (

@@ -26,7 +26,7 @@ export const InformationCategoryList = () => {
   if (isLoading) return <Loading />;
   const contentDatas = (
     <div>
-      Township City government diligently serves our community, providing
+      Deerfield Township & Symmes Township, OH City government diligently serves our community, providing
       essential services and ensuring our city thrives. We strive to provide
       accurate and up-to-date information, ensuring that you can easily access
       the services, institutions, and landmarks that make our city unique.
@@ -38,7 +38,7 @@ export const InformationCategoryList = () => {
       <div>
         <Banner
           img={second}
-          bannerHeading="Township City: Important Links and Details"
+          bannerHeading="Deerfield Township & Symmes Township, OH City: Important Links and Details"
         />
         <Breadcrumb pagename="Information Listings" />
         <div className="container">
@@ -55,7 +55,7 @@ export const InformationCategoryList = () => {
             </div>
             <div>
               <p className="contentCss">
-                The local governments of <strong>TownshipOne OH,</strong>{" "}
+                The local governments of <strong>Deerfield Township & Symmes Township, OH,</strong>{" "}
                 diligently serve their communities, providing essential services
                 and fostering growth. We strive to offer accurate, up-to-date
                 information so you can easily access the services, institutions,

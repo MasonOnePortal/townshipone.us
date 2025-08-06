@@ -16,12 +16,12 @@ import { InformationPromotedWrapper } from "@/components/Information-listing/Inf
 export default function HomeClient() {
   const contentData1 = (
     <div>
-      The Township Portal website is your go-to resource for exploring
-      everything our city has to offer, from local businesses with exclusive
-      deals to a vibrant real estate market and comprehensive job listings. It's
-      designed to connect residents and visitors alike to the community,
-      ensuring access to the latest promotions, discounts, and opportunities in
-      Township.
+      The Deerfield Township & Symmes Township, OH Portal website is your go-to
+      resource for exploring everything our city has to offer, from local
+      businesses with exclusive deals to a vibrant real estate market and
+      comprehensive job listings. It's designed to connect residents and
+      visitors alike to the community, ensuring access to the latest promotions,
+      discounts, and opportunities in Deerfield Township & Symmes Township, OH.
     </div>
   );
 
@@ -71,7 +71,7 @@ export default function HomeClient() {
       <Search />
 
       {/* <div className="container">
-        <h1 className="fs-5">Explore Local Listings & Services in Township, OH</h1>
+        <h1 className="fs-5">Explore Local Listings & Services in Deerfield Township & Symmes Township, OH</h1>
 
         <h4 className="fs-6">
           Township OH, Deerfield Township OH, Township OH, West Chester Township OH,
@@ -79,7 +79,7 @@ export default function HomeClient() {
         </h4>
 
         <p className="contentCss">
-          Welcome to the Greater Township OH Area Portal, your comprehensive
+          Welcome to the  Township OH Area Portal, your comprehensive
           resource for exploring everything our vibrant region has to offer.{" "}
         </p>
         <p className="contentCss">
@@ -107,7 +107,7 @@ export default function HomeClient() {
           </li>
         </ul>
         <p className="contentCss">
-          With our portal, connecting with the Greater Township community has never
+          With our portal, connecting with the  Township community has never
           been easier. Whether you're a local resident, newcomer, or visitor,
           find everything you need to stay connected, informed, and engaged with
           the region's dynamic offerings.
@@ -116,12 +116,13 @@ export default function HomeClient() {
 
       <div className="container">
         <h1 className="fs-5">
-          Explore Local Listings & Services in Township, OH
+          Explore Local Listings & Services in Deerfield Township & Symmes Township, OH
         </h1>
 
         <p className="contentCss">
-          Welcome to the Greater Township OH Area Portal, your comprehensive
-          resource for exploring everything our vibrant region has to offer.
+          Welcome to the Deerfield Township & Symmes Township, OH Area Portal,
+          your comprehensive resource for exploring everything our vibrant
+          region has to offer.
         </p>
 
         <p className="contentCss">
@@ -131,12 +132,13 @@ export default function HomeClient() {
         </p>
 
         <p className="contentCss">
-          The Township City Portal website is your go-to resource for exploring
-          everything our city has to offer, from local businesses with exclusive
-          deals to a vibrant real estate market and comprehensive job listings.
-          It's designed to connect residents and visitors alike to the
-          community, ensuring access to the latest promotions, discounts, and
-          opportunities in Township City.
+          The Deerfield Township & Symmes Township, OH City Portal website is
+          your go-to resource for exploring everything our city has to offer,
+          from local businesses with exclusive deals to a vibrant real estate
+          market and comprehensive job listings. It's designed to connect
+          residents and visitors alike to the community, ensuring access to the
+          latest promotions, discounts, and opportunities in Deerfield Township
+          & Symmes Township, OH City.
         </p>
 
         <ul className="fx-6 contentCss">
@@ -150,7 +152,8 @@ export default function HomeClient() {
           </li>
           <li>
             <b>Explore a Thriving Real Estate Market</b>: Search for your ideal
-            home across Township and surrounding areas.
+            home across Deerfield Township & Symmes Township, OH and surrounding
+            areas.
           </li>
           <li>
             <b>Find Your Perfect Job</b>: Browse a broad range of job
@@ -159,10 +162,10 @@ export default function HomeClient() {
         </ul>
 
         <p className="contentCss">
-          With our portal, connecting with the Greater Township community has
-          never been easier. Whether you're a local resident, newcomer, or
-          visitor, find everything you need to stay connected, informed, and
-          engaged with the region's dynamic offerings.
+          With our portal, connecting with the Deerfield Township & Symmes
+          Township, OH community has never been easier. Whether you're a local
+          resident, newcomer, or visitor, find everything you need to stay
+          connected, informed, and engaged with the region's dynamic offerings.
         </p>
       </div>
 

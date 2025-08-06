@@ -8,7 +8,7 @@ export const TabContainer = () => {
   return (
     <div className="container">
       <h1 className="fs-4 mb-3">
-        Welcome to the Township and nearby Community Hub.
+        Welcome to the Deerfield Township & Symmes Township, OH and nearby Community Hub.
       </h1>
       <p
         className="contentCss"
