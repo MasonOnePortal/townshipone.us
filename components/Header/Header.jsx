@@ -127,12 +127,9 @@ const CitiesDropdown = () => {
     { name: "Loveland", url: "https://lovelandone.us" },
     { name: "Lebanon", url: "https://lebanonone.us" },
     { name: "Fairfield", url: "https://fairfieldone.us" },
-    {
-      name: "Township",
-      url: "https://townshipone.us",
-    },
+    { name: "Township", url: "https://townshipone.us" },
     { name: "Hamilton", url: "https://hamiltonone.us" },
-    { name: "Middletown", url: "https://middletownone.us" },
+    { name: "Ohio", url: "https://ohioone.us" },
     { name: "Mason", url: "https://masonone.us" },
   ];
 
