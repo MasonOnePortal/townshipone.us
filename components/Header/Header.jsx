@@ -20,7 +20,7 @@ export const Logo = () => {
     <div className={style.hdr_logo}>
       <Image
         className="custom_logo"
-        src="./logo.png" // Static logo path
+        src="/logo.png" // Static logo path
         alt="TownshipOne.us Logo"
         width={105}
         height={40}
