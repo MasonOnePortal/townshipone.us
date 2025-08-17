@@ -15,12 +15,12 @@
   text-align: end;
 }
 .rt_r_cl_btn {
-  background-color: #5f7693 !important;
-  border-color: #5f7693 !important;
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
   font-size: 13px !important;
 }
 .add {
-  background-color: #5f7693 !important;
+  background-color: var(--color-primary) !important;
   border-color: #5f7693 !important;
   font-size: 13px !important;
   margin-left: 14px;
@@ -62,7 +62,7 @@
 }
 
 .promo_tbl table th svg {
-  fill: #5f7693;
+  fill: var(--color-primary);
   width: 30px;
 }
 

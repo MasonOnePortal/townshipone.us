@@ -1,11 +1,12 @@
 .wrap_category_data {
   border-radius: 11px;
-  background: #a8b5c4;
+  background: var(--color-secondary);
   position: relative;
   height: 285px;
   overflow: hidden;
   max-width: 95%;
   margin: 15px auto 35px;
+  
 }
 
 .category_Outer_wrap {
@@ -28,10 +29,10 @@
 }
 
 .diff_bg_clr {
-  background: #5f7693;
+  background: var(--color-primary);
 }
 .wrap_category_data h4 {
-  color: white;
+ color: var(--color-text-black);
   padding: 20px;
   width: 60%;
   font-size: 17px;

@@ -17,8 +17,8 @@
 
 
 .tab-button.active {
-  background-color: #5f7693;
-  color: #fff;
+  background-color:var(--color-primary);
+  color: var(--color-text);
 }
 
 .tab-content {

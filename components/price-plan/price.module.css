@@ -57,7 +57,7 @@
   text-align: center;
   border: 0;
   text-decoration: none;
-  background-color: #5f7693;
+  background-color: var(--color-primary);
   color: white;
   margin: 14px auto;
   display: table;

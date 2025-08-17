@@ -29,7 +29,7 @@
   margin-bottom: 18px;
 }
 .checkmark {
-  background-color: #5f7693;
+  background-color: var(--color-primary);
 }
 .rti--container {
   border: 0 !important;
@@ -80,7 +80,7 @@
   padding: 23px 0px 11px 1px;
 }
 .search_btn_filter button {
-  background-color: rgba(95, 118, 147, 1) !important;
+  background-color: var(--color-primary) !important;
   border: 0;
   width: 100%;
   padding: 10px;
@@ -116,15 +116,15 @@
   width: 16px;
   height: 16px;
   border-radius: 4px;
-  border: 1px solid #5f7693;
+  border: 1px solid var(--color-primary);
 }
 
 .container_lbl:hover input ~ .checkmark_lbl {
-  background-color: #5f7693;
+  background-color: var(--color-primary);
 }
 
 .container_lbl input:checked ~ .checkmark_lbl {
-  background-color: #5f7693;
+  background-color: var(--color-primary);
 }
 
 .checkmark_lbl:after {

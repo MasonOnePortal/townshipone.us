@@ -15,7 +15,7 @@
 }
 
 .wrap_search_inner_data input:focus {
-  border-color: #5f7693;
+  border-color: var(--color-primary);
 }
 
 .wrap_search_inner_data button {
@@ -26,7 +26,7 @@
   padding: 7px 25px;
   border-radius: 54px;
   z-index: 9999 !important;
-  background-color: #5f7693;
+  background-color: var(--color-primary);
   border-color: transparent;
 }
 /*Mobile*/

@@ -19,7 +19,7 @@
 .blog_img_wrap h4 {
   position: absolute;
   bottom: 0;
-  background-color: #5f7693;
+  background-color: var(--color-primary);
   margin: 10px 16px;
   padding: 4px;
   color: white;
@@ -42,7 +42,7 @@
 
 .blog_text_wrap h3 {
   font-size: 15px;
-  color: #5f7693;
+  color: var(--color-primary);
   line-height: 20px;
   padding-bottom: 0;
   overflow: hidden;
@@ -69,7 +69,7 @@
 }
 
 .blog_text_wrap a:hover h3 {
-  color: #eb3951;
+  color: var(--color-secondary);
 }
 
 .error {
@@ -84,13 +84,13 @@
 }
 
 .blog_footer svg {
-  color: #8b8b8b;
+  color: var(--color-primary);
   margin-right: 7px;
 }
 
 .blog_footer b {
   font-size: 12px;
-  color: #5f7693;
+  color: var(--color-primary);
 }
 
 .blog_footer img {
@@ -185,13 +185,13 @@
 
 .cat_link li a {
   text-decoration: none;
-  color: #5f7693;
+  color: var(--color-primary);
   font-size: 15px;
 }
 
 .cat_link li a span {
   float: right;
-  background-color: #5f789d75;
+  background-color: var(--color-primary);
   width: 20px;
   height: 20px;
   text-align: center;
@@ -205,11 +205,11 @@
 }
 
 .cat_link li:hover a {
-  color: #eb3951;
+  color: var(--color-secondary);
 }
 
 .cat_link li:hover span {
-  background-color: #eb3951;
+  background-color: var(--color-secondary);
 }
 
 .recent_news {
@@ -242,7 +242,7 @@
 
 .recent_news li a {
   text-decoration: none;
-  color: #5f7693;
+  color: var(--color-primary);
 }
 
 .recent_news li img {
@@ -265,6 +265,7 @@
   font-size: 13px;
   font-weight: 600;
   margin-left: 10px;
+  color: var(--color-primary);
 }
 
 .blog_details_wrapper h2 {

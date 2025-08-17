@@ -1,3 +1,4 @@
+
 .header_top_area {
   padding: 10px 0;
 }
@@ -5,7 +6,7 @@
   text-decoration: none;
 }
 .header_top_area_right p {
-  color: #757783;
+  color: var(--color-primary);
   font-size: 14px;
   font-weight: 500;
   margin-bottom: 0;
@@ -23,7 +24,7 @@
   font-weight: 500;
 }
 .header_top_area_right svg {
-  color: #5f7693;
+  color: var(--color-primary);
   font-size: 28px;
   margin-right: 10px;
 }
@@ -38,11 +39,11 @@
   bottom: 0;
   width: 1px;
   right: 32px;
-  background-color: #5f7693;
+  background-color: var(--color-primary);
   height: 34px;
 }
 .main_header_area {
-  background-color: #5f7693;
+  background-color: var(--color-primary);
   padding: 10px;
   position: relative;
 }
@@ -60,7 +61,7 @@
   font-weight: 500;
 }
 .nav_menu_area ul li a:hover {
-  color: #eb3951;
+  color: var(--color-secondary);
 }
 .nav_menu_area ul button {
   background-color: transparent;
@@ -200,7 +201,7 @@ height: 80%;
   }
 
   .main_header_area {
-    background-color: #5f7693;
+    background-color: var(--color-primary);
     padding: 10px 0;
   }
   .header_top_area_right h5 {
@@ -210,7 +211,7 @@ height: 80%;
     margin-bottom: 0;
   }
   .header_top_area_right svg {
-    color: #5f7693;
+    color: var(--color-primary);
     font-size: 18px;
     margin-right: 10px;
   }
@@ -300,7 +301,7 @@ height: 80%;
   }
 
   .main_header_area {
-    background-color: #5f7693;
+    background-color: var(--color-primary);
     padding: 10px 0;
   }
 }
@@ -455,7 +456,7 @@ height: 80%;
 }
 
 .cities_dropdown_trigger:hover {
-  color: #eb3951;
+  color: var(--color-secondary);
 }
 
 .dropdown_icon {
@@ -513,11 +514,15 @@ height: 80%;
   color: #333 !important;
   text-decoration: none;
   transition: background-color 0.3s ease;
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
 }
 
 .cities_dropdown_wrapper a:hover {
   background-color: #f8f9fa;
-  color: #eb3951 !important;
+  color: var(--color-secondary) !important;
 }
 
 /* Mobile Responsive */

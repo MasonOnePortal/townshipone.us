@@ -7,7 +7,7 @@
 }
 .postTypesstyl {
   bottom: 0;
-  background-color: #5f7693;
+  background-color: var(--color-primary);
   /* margin: -5px 16px; */
   padding: 4px;
   color: white;
@@ -31,7 +31,7 @@
   /* text-align: left; */
 }
 .searchfilterpost span button {
-  background-color: #5f7693 !important;
+  background-color: var(--color-primary);
 }
 .searchfilters {
   display: flex;
@@ -81,7 +81,7 @@
 }
 .postTypesstyl {
   bottom: 0;
-  background-color: #5f7693;
+  background-color: var(--color-primary);
   /* margin: -5px 16px; */
   padding: 2px 6px;
   color: white;
@@ -155,7 +155,7 @@
 }
 
 .post_btn_option {
-  background-color: #5f7693 !important;
+  background-color: var(--color-primary);
   border: 0 !important;
   box-shadow: inherit !important;
 }
@@ -266,8 +266,8 @@
 }
 
 .actn_edt_del a:active {
-  background-color: #5f7693;
-  color: white;
+  background-color: var(--color-primary);
+  color: var(--color-text);
   border: 0;
 }
 
@@ -521,7 +521,7 @@
   text-transform: capitalize;
 }
 .ask_question_wrap a {
-  background: #5f7693 !important;
+  background: var(--color-primary);
   border: 0;
   color: white;
   font-size: 14px;
@@ -553,7 +553,7 @@
     font-size: 16px;
   }
   .ask_question_wrap a {
-    background: #5f7693 !important;
+    background: var(--color-primary);
     border: 0;
     color: white;
     font-size: 14px;

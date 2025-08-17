@@ -27,7 +27,7 @@
 
 .rate_star_wrpa span {
   width: 15%;
-  color: #5f7693;
+  color: var(--color-primary);
   font-size: 14px;
   font-weight: 500;
 }
@@ -44,7 +44,7 @@
 }
 
 .act_star_cl {
-  color: #ffc107;
+  color: var(--color-primary);
 }
 
 .user_cmnt h3 {

@@ -75,7 +75,7 @@
 }
 
 .active_view {
-  background: #5f7693 !important;
+  background: var(--color-primary) !important;
   color: white;
 }
 .img_area_lst {
@@ -217,7 +217,7 @@
 
 .btn_rght_arrow a {
   border-radius: 40px;
-  background: #5f7693;
+  background: var(--color-primary);
   padding: 10px;
   font-size: 13px;
   text-decoration: none;
@@ -266,12 +266,13 @@
   line-height: auto;
   border-radius: 60px;
   margin: 20px 6px;
-  color: #5f7692;
+  background-color: var(--color-secondary);
+  color: var(--color-text) !important;
   font-size: 13px;
 }
 
 .active_pagination {
-  background-color: #5f7693 !important;
+  background-color: var(--color-primary) !important;
   color: white !important;
 }
 

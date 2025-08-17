@@ -45,7 +45,7 @@
   left: 17px;
   right: 0;
   width: 50px;
-  background-color: #5f7693;
+  background-color: var(--color-primary);
   bottom: -1px;
   height: 3px;
 }

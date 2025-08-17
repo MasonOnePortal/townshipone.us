@@ -17,7 +17,7 @@
 
 .footer_logo_area a {
   margin: 0 8px;
-  color: #5f7693;
+  color: var(--color-primary);
   font-size: 24px;
 }
 
@@ -41,7 +41,7 @@
   text-decoration: none;
   font-size: 14px;
   font-weight: 400;
-  color: #5f7693;
+  color: var(--color-text-black);
 }
 
 .copyright_area {
@@ -51,7 +51,7 @@
 .copyright_area p {
   margin-bottom: 0;
   font-size: 13px;
-  color: #5f7693;
+  color: var(--color-text-black);
   border-top: 1px solid #090a0a47;
   padding-top: 10px;
 }

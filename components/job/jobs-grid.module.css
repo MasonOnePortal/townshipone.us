@@ -143,7 +143,7 @@
 }
 
 .aply_nw {
-  background: #5f7693;
+  background: var(--color-primary);
   color: white;
   border-radius: 8px;
   border: 0;

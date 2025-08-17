@@ -1,13 +1,13 @@
 .view_all_btn {
   border-radius: 50px;
-  border: 2px solid #5f7693;
-  background-color: #5f7693 !important;
+  border: 2px solid var(--color-primary) !important;
+  background-color: var(--color-primary) !important;
   height: 42px;
   padding: 9px 20px;
   display: inline-flex;
   align-items: center !important;
   margin: 0px;
-  color: white;
+  color: var(--color-text) !important;
   text-decoration: none;
   font-size: 13px;
 }
@@ -15,26 +15,32 @@
   margin-left: 3px;
 }
 
+
+
 .view_all_btn {
-  color: white !important;
+  color: var(--color-text-black);
 }
 .view_all_btns {
   border-radius: 18px;
-  border: 2px solid #5f7693;
-  background-color: #5f7693 !important;
+  border: 2px solid var(--color-primary) !important;
+  background-color: var(--color-primary) !important;
   height: 20px;
   padding: 8px;
   display: inline-flex;
   align-items: center !important;
   margin: 0px;
-  color: white;
+  color: var(--color-text);
   text-decoration: none;
   font-size: 10px;
+}
+.view_all_btns:hover{
+  background-color: var(--color-primary) !important;
+  color: var(--color-text) !important;
 }
 .view_all_btns svg {
   margin-left: 3px;
 }
 
 .view_all_btns {
-  color: white !important;
+  color: var(--color-text);
 }
