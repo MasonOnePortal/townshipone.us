@@ -22,8 +22,8 @@ export const Logo = () => {
         className="custom_logo"
         src="/logo.png" // Static logo path
         alt="TownshipOne.us Logo"
-        width={105}
-        height={40}
+        width={220}
+        height={80}
       />
     </div>
   );
@@ -34,7 +34,7 @@ const HeaderLeft = () => {
   // Static contact information
   const contactInfo = {
     primaryPhone: "877 674 4668",
-    primaryEmail: "admin@OhioOne.us",
+    primaryEmail: "admin@ohioone.us",
   };
 
   return (
@@ -124,6 +124,7 @@ const CitiesDropdown = () => {
   const cities = [
     { name: "Cincinnati", url: "http://cincinnatione.us/" },
     { name: "West Chester", url: "https://westchesterone.net" },
+    { name: "Middletown", url: "https://middletownone.us" },
     { name: "Loveland", url: "https://lovelandone.us" },
     { name: "Lebanon", url: "https://lebanonone.us" },
     { name: "Fairfield", url: "https://fairfieldone.us" },
@@ -247,12 +248,12 @@ const HeaderTop = () => {
     <div className={style.header_top_area}>
       <div className="container">
         <div className="row">
-          <div className="col-7 col-md-5">
+          <div className="col-7 col-md-5 ">
             <Link href="/" className="_header_logo_wrap">
               <Logo />
             </Link>
           </div>
-          <div className="col-5 col-md-7 _to_left_">
+          <div className="col-5 col-md-7 _to_left_ header-extend">
             <HeaderLeft />
           </div>
         </div>
