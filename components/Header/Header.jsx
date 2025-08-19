@@ -34,7 +34,7 @@ const HeaderLeft = () => {
   // Static contact information
   const contactInfo = {
     primaryPhone: "877 674 4668",
-    primaryEmail: "admin@ohioone.us",
+    primaryEmail: "contact@masonone.us",
   };
 
   return (
@@ -130,7 +130,7 @@ const CitiesDropdown = () => {
     { name: "Fairfield", url: "https://fairfieldone.us" },
     { name: "Township", url: "https://townshipone.us" },
     { name: "Hamilton", url: "https://hamiltonone.us" },
-    { name: "Ohio", url: "https://ohioone.us" },
+    // { name: "Ohio", url: "https://ohioone.us" },
     { name: "Mason", url: "https://masonone.us" },
   ];
 

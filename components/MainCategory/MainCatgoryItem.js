@@ -3,16 +3,29 @@ import style from "./MainCategory.module.css";
 import clickArrow from "@/public/imgs/click-arrow.svg";
 import Link from "next/link";
 import Image from "next/image";
+
 function MainCatgoryItem({ item }) {
+  // Define which services should have black h4 text
+  const blackTextServices = [
+    "Top Businesses",
+    "In-Demand Jobs and Vacancies",
+    "City Listings",
+    "Technical Services"
+  ];
+
+  // Check if current item should have black text
+  const shouldHaveBlackText = blackTextServices.includes(item.name);
+
   return (
     <div className={style.category_Outer_wrap}>
       <Link className="url_link" href={`${item.URL}`}>
         <div
-          className={`${style.wrap_category_data} ${
-            item.id % 2 === 0 ? style.diff_bg_clr : ""
-          }`}
+          className={`${style.wrap_category_data} ${item.id % 2 === 0 ? style.diff_bg_clr : ""
+            }`}
         >
-          <h4>{item.name}</h4>
+          <h4 className={shouldHaveBlackText ? style.black_text_h4 : style.white_text_h4}>
+            {item.name}
+          </h4>
           <Image
             className={style.cat_img}
             src={item.avatar}

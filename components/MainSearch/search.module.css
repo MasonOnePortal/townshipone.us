@@ -69,16 +69,16 @@
   box-shadow: 0px 5px 24px 0px rgba(31, 37, 59, 0.15);
   width: 100%;
   padding: 11px;
-  color: var(--color-text-black);
+  color: var(--color-text);
 }
-.search_btn button:hover{
-   background: var(--color-secondary) !important;
-   transition: all ease-in .2s;
-   -webkit-transition: all ease-in .2s;
-   -moz-transition: all ease-in .2s;
-   -ms-transition: all ease-in .2s;
-   -o-transition: all ease-in .2s;
-   color: var(--color-text-black);
+.search_btn button:hover {
+  background: var(--color-secondary) !important;
+  transition: all ease-in 0.2s;
+  -webkit-transition: all ease-in 0.2s;
+  -moz-transition: all ease-in 0.2s;
+  -ms-transition: all ease-in 0.2s;
+  -o-transition: all ease-in 0.2s;
+  color: var(--color-text-black);
 }
 
 .location_icon {

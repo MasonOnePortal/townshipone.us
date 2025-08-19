@@ -17,20 +17,19 @@
   --color-text: #ffffff;
 
   /* Filter approximation for #d28454 */
-  --color-primary-filter: invert(69%) sepia(34%) saturate(518%) hue-rotate(338deg) brightness(91%) contrast(85%);
+  --color-primary-filter: invert(69%) sepia(34%) saturate(518%)
+    hue-rotate(338deg) brightness(91%) contrast(85%);
 
   --color-secondary: #f1c7af; /* Light version of primary */
-  
+
   /* Filter approximation for #f1c7af */
-  --color-secondary-filter: invert(91%) sepia(18%) saturate(288%) hue-rotate(324deg) brightness(103%) contrast(89%);
+  --color-secondary-filter: invert(91%) sepia(18%) saturate(288%)
+    hue-rotate(324deg) brightness(103%) contrast(89%);
 
   --color-text-black: #000000;
   line-height: 1.5;
   font-weight: 400;
 }
-
-
-
 
 .contentCss {
   font-size: 15px;
@@ -481,7 +480,7 @@ a {
 }
 
 a:hover {
-  color: var(--color-secondary)
+  color: var(--color-secondary);
 }
 
 .payment_page {
@@ -788,7 +787,6 @@ body {
   left: inherit;
   z-index: 999;
   right: 100px;
-  
 }
 
 .banner_slider .slick-prev {
@@ -831,33 +829,32 @@ body {
   left: inherit;
   z-index: 999;
   right: 100px;
-    transition: all ease-in-out .2s;
-  -webkit-transition: all ease-in-out .2s;
-  -moz-transition: all ease-in-out .2s;
-  -ms-transition: all ease-in-out .2s;
-  -o-transition: all ease-in-out .2s;
-  
+  transition: all ease-in-out 0.2s;
+  -webkit-transition: all ease-in-out 0.2s;
+  -moz-transition: all ease-in-out 0.2s;
+  -ms-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
 }
 
 .banner_slider .slick-prev {
   left: 100px;
   z-index: 999;
-    transition: all ease-in-out .2s;
-  -webkit-transition: all ease-in-out .2s;
-  -moz-transition: all ease-in-out .2s;
-  -ms-transition: all ease-in-out .2s;
-  -o-transition: all ease-in-out .2s;
+  transition: all ease-in-out 0.2s;
+  -webkit-transition: all ease-in-out 0.2s;
+  -moz-transition: all ease-in-out 0.2s;
+  -ms-transition: all ease-in-out 0.2s;
+  -o-transition: all ease-in-out 0.2s;
 }
 
 .banner_slider .slick-prev:before {
-   content: "" !important;
-   background-image: url("../public/imgs/Previous-slide-icon.svg");
-   position: absolute;
-   background-size: contain;
-   height: 45px;
-   width: 45px;
-   background-repeat: no-repeat;
-    filter: var(--color-primary-filter);
+  content: "" !important;
+  background-image: url("../public/imgs/Previous-slide-icon.svg");
+  position: absolute;
+  background-size: contain;
+  height: 45px;
+  width: 45px;
+  background-repeat: no-repeat;
+  filter: var(--color-primary-filter);
   -webkit-filter: var(--color-primary-filter);
 }
 
@@ -870,7 +867,7 @@ body {
   width: 45px;
   background-repeat: no-repeat;
   left: -40px;
- filter: var(--color-primary-filter);
+  filter: var(--color-primary-filter);
   -webkit-filter: var(--color-primary-filter);
 }
 
@@ -1042,9 +1039,11 @@ body {
   min-height: 30px !important;
 }
 
-.filter_options input {}
+.filter_options input {
+}
 
-.filter_options input:focus {}
+.filter_options input:focus {
+}
 
 .uploadby_by img {
   width: 17px;
@@ -1142,7 +1141,7 @@ body {
   background: var(--color-primary);
   padding: 5px 10px;
   text-decoration: none;
-  color: var(--color-text-black);
+  color: var(--color-text);
   font-weight: 300 !important;
   font-size: 13px;
   font-size: 11px;
@@ -1194,7 +1193,7 @@ body {
   width: 40px;
   background-repeat: no-repeat;
   left: -40px;
-   /* Normal state filter color */
+  /* Normal state filter color */
   filter: var(--color-secondary-filter);
   -webkit-filter: var(--color-secondary-filter);
 
@@ -1246,7 +1245,8 @@ li .realEstate_itme {
 }
 
 /***LiST VIEW***/
-.for_list_view_cl {}
+.for_list_view_cl {
+}
 
 .for_list_view_cl .lst_ddta_wr {
   grid-template-columns: 1fr;
@@ -1509,7 +1509,7 @@ button[type="submit"] {
   height: 40px;
   width: 40px;
   background-repeat: no-repeat;
-   /* Normal state filter color */
+  /* Normal state filter color */
   filter: var(--color-secondary-filter);
   -webkit-filter: var(--color-secondary-filter);
 
@@ -1525,7 +1525,7 @@ button[type="submit"] {
   width: 40px;
   background-repeat: no-repeat;
   left: -40px;
-   /* Normal state filter color */
+  /* Normal state filter color */
   filter: var(--color-secondary-filter);
   -webkit-filter: var(--color-secondary-filter);
 
@@ -1542,7 +1542,6 @@ button[type="submit"] {
   filter: var(--color-primary-filter);
   -webkit-filter: var(--color-primary-filter);
 }
-
 
 .vertical-slider {
   height: 380px;
@@ -1744,7 +1743,7 @@ img.image-gallery-image {
 .caption_btn a:hover {
   background: var(--color-primary);
   color: var(--color-text);
-  border-color:var(--color-primary);
+  border-color: var(--color-primary);
 }
 
 /***************/
@@ -1783,9 +1782,11 @@ img.image-gallery-image {
 
 /********LIST DATA*********/
 
-.for_information_list {}
+.for_information_list {
+}
 
-.for_information_list .row {}
+.for_information_list .row {
+}
 
 .for_information_list .col-lg-3.col-md-4 {
   width: 100%;
@@ -1909,7 +1910,6 @@ table tbody tr {
 /**********RESPOSNIVE****************/
 /*Mobile*/
 @media (max-width: 767px) {
-
   /********LIST DATA*********/
   .for_information_list img {
     width: 150px;
@@ -2071,7 +2071,8 @@ table tbody tr {
     display: block;
   }
 
-  .fillter_line {}
+  .fillter_line {
+  }
 
   .for_list_view_cl .realEstate_itme {
     display: block;
@@ -2135,7 +2136,6 @@ table tbody tr {
   .beds_bath_sqft {
     margin: 5px 0;
   }
-
 
   .star_rtng_star svg {
     font-size: 13px;
@@ -2291,7 +2291,6 @@ table tbody tr {
   justify-content: center;
 }
 
-
 /*landscape mobiles devices*/
 @media (max-width: 736px) and (orientation: landscape) {
   .section_Heading h2 {
@@ -2442,13 +2441,6 @@ table tbody tr {
   }
 }
 
-
-
-
-
-
-
-
 /* Promoted badge design */
 .promoted-badge {
   font-size: 12px;
@@ -2458,14 +2450,9 @@ table tbody tr {
   color: var(--color-text-black);
   max-width: fit-content;
   border-radius: 30px;
-  padding: .2rem .5rem;
+  padding: 0.2rem 0.5rem;
 }
-
-
 
 .for_information_list .full_size_card {
   width: 100%;
 }
-
-
-
