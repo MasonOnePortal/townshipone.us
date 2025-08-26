@@ -22,9 +22,6 @@ export default function HomeClient() {
   const words = ["Support and promote local businesses"];
 
   useEffect(() => {
-    return () => {};
-  }, []);
-  () => {
     const typeSpeed = isDeleting ? 50 : 100;
     const currentWord = words[currentWordIndex];
 
@@ -44,8 +41,7 @@ export default function HomeClient() {
     }, typeSpeed);
 
     return () => clearTimeout(timer);
-  },
-    [currentCharIndex, currentWordIndex, isDeleting, words];
+  }, [currentCharIndex, currentWordIndex, isDeleting, words]);
   const contentData1 = (
     <div>
       The Deerfield Township & Symmes Township, OH Portal website is your go-to
@@ -121,7 +117,7 @@ export default function HomeClient() {
           <h1
             className="typewriter-heading"
             style={{
-              fontSize: "clamp(2.5rem, 5vw, 4rem)",
+              fontSize: "clamp(1.2rem, 2.5vw, 2rem)",
               fontWeight: "900",
               background:
                 "linear-gradient(45deg, #d28454, #da8f61, #e29c6f, #ecae82)",
