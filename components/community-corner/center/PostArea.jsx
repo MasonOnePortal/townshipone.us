@@ -24,10 +24,20 @@ const postForm = {
   question: "",
   postType: "",
   details: "",
+  city: "",
+  zipCode: "",
+  address: "",
+  state: "",
 };
+
 const postSchema = Yup.object().shape({
   question: Yup.string().required("Title is required"),
+  city: Yup.string().required("City is required"),
+  zipCode: Yup.string().required("Zip Code is required"),
+  address: Yup.string().required("Address is required"),
+  state: Yup.string().required("State is required"),
 });
+
 function PostArea({ postData }) {
   const [loading, setLoading] = useState(false);
   const [postSlug, setPostSlug] = useState("");
@@ -88,12 +98,14 @@ function PostArea({ postData }) {
       setLoading(false);
     }
   };
+
   const getPostType = (option) => {
     setValue("postType", option.value);
     setPostSlug((preVal) => (preVal = option.slug));
   };
 
   if (!currentUser.id) return router.push("/community-corners");
+
   const checkFieldEnable = () => {
     if (postId) {
       return (
@@ -103,6 +115,7 @@ function PostArea({ postData }) {
       return postSlug !== postConstants.postType;
     }
   };
+
   return (
     <>
       {currentUser.id ? (
@@ -142,6 +155,7 @@ function PostArea({ postData }) {
               </div>
             </div>
           </div>
+
           <div className="col-md-12">
             <div className="form-group">
               <label className="col-form-label custom_label">Title</label>
@@ -160,6 +174,76 @@ function PostArea({ postData }) {
               )}
             </div>
           </div>
+
+          {/* Address Fields */}
+          <div className="col-md-12">
+            <div className="form-group">
+              <label className="col-form-label custom_label">Address</label>
+              <textarea
+                className={`form-control ${errors.address ? style.error : ""} `}
+                rows="2"
+                {...register("address")}
+                placeholder="Enter your address"
+              ></textarea>
+            </div>
+            <div>
+              {errors.address && (
+                <p className={style.textColor}>{errors.address.message}</p>
+              )}
+            </div>
+          </div>
+
+          <div className="col-md-6">
+            <div className="form-group">
+              <label className="col-form-label custom_label">City</label>
+              <input
+                type="text"
+                className={`form-control ${errors.city ? style.error : ""} `}
+                {...register("city")}
+                placeholder="Enter city"
+              />
+            </div>
+            <div>
+              {errors.city && (
+                <p className={style.textColor}>{errors.city.message}</p>
+              )}
+            </div>
+          </div>
+
+          <div className="col-md-6">
+            <div className="form-group">
+              <label className="col-form-label custom_label">State</label>
+              <input
+                type="text"
+                className={`form-control ${errors.state ? style.error : ""} `}
+                {...register("state")}
+                placeholder="Enter state"
+              />
+            </div>
+            <div>
+              {errors.state && (
+                <p className={style.textColor}>{errors.state.message}</p>
+              )}
+            </div>
+          </div>
+
+          <div className="col-md-12">
+            <div className="form-group">
+              <label className="col-form-label custom_label">Zip Code</label>
+              <input
+                type="text"
+                className={`form-control ${errors.zipCode ? style.error : ""} `}
+                {...register("zipCode")}
+                placeholder="Enter zip code"
+              />
+            </div>
+            <div>
+              {errors.zipCode && (
+                <p className={style.textColor}>{errors.zipCode.message}</p>
+              )}
+            </div>
+          </div>
+
           {checkFieldEnable() ? (
             <div className="col-md-12">
               <div className="form-group">
@@ -176,6 +260,7 @@ function PostArea({ postData }) {
             </div>
           ) : null}
         </div>
+
         <div className="text-right">
           <button
             type="submit"
