@@ -8,99 +8,84 @@ import JobsGrid from "@/components/job/JobsGrid";
 import Search from "@/components/MainSearch/Search";
 import MainCategory from "@/components/MainCategory/MainCategory";
 import { Loading } from "@/components/Loading";
-import { Suspense, useEffect, useState } from "react";
+import { Suspense } from "react";
 import OffersSlider from "@/components/dealsSaleClearanceItems/OffersSlider";
 import Content from "@/components/card/Content";
 import { InformationPromotedWrapper } from "@/components/Information-listing/InformationPromotedWrapper";
+import { useMemo } from "react";
+import { Typewriter } from "react-simple-typewriter";
+
+// Move static content outside component
+const CONTENT_DATA_1 = (
+  <div>
+    The Deerfield Township & Symmes Township, OH Portal website is your go-to
+    resource for exploring everything our city has to offer, from local
+    businesses with exclusive deals to a vibrant real estate market and
+    comprehensive job listings. It's designed to connect residents and visitors
+    alike to the community, ensuring access to the latest promotions, discounts,
+    and opportunities in Deerfield Township & Symmes Township, OH.
+  </div>
+);
+
+// Move schema data outside component
+const SCHEMA_DATA = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Township OH Business Directory",
+  description:
+    "Complete business directory for Township OH, Deerfield Township, Township, West Chester Township, and surrounding areas",
+  url: "https://townshipone.us",
+  potentialAction: {
+    "@type": "SearchAction",
+    target: "https://townshipone.us/search?q={search_term_string}",
+    "query-input": "required name=search_term_string",
+  },
+  areaServed: [
+    {
+      "@type": "City",
+      name: "Township",
+      addressRegion: "OH",
+      addressCountry: "US",
+    },
+    {
+      "@type": "City",
+      name: "Deerfield Township",
+      addressRegion: "OH",
+      addressCountry: "US",
+    },
+    {
+      "@type": "City",
+      name: "Symmes Township",
+      addressRegion: "OH",
+      addressCountry: "US",
+    },
+  ],
+};
 
 export default function HomeClient() {
-  const [displayText, setDisplayText] = useState("");
-  const [currentWordIndex, setCurrentWordIndex] = useState(0);
-  const [currentCharIndex, setCurrentCharIndex] = useState(0);
-  const [isDeleting, setIsDeleting] = useState(false);
-
-  const words = ["Support and promote local businesses"];
-
-  useEffect(() => {
-    const typeSpeed = isDeleting ? 50 : 100;
-    const currentWord = words[currentWordIndex];
-
-    const timer = setTimeout(() => {
-      if (!isDeleting && currentCharIndex < currentWord.length) {
-        setDisplayText(currentWord.substring(0, currentCharIndex + 1));
-        setCurrentCharIndex(currentCharIndex + 1);
-      } else if (isDeleting && currentCharIndex > 0) {
-        setDisplayText(currentWord.substring(0, currentCharIndex - 1));
-        setCurrentCharIndex(currentCharIndex - 1);
-      } else if (!isDeleting && currentCharIndex === currentWord.length) {
-        setTimeout(() => setIsDeleting(true), 2000);
-      } else if (isDeleting && currentCharIndex === 0) {
-        setIsDeleting(false);
-        setCurrentWordIndex((currentWordIndex + 1) % words.length);
-      }
-    }, typeSpeed);
-
-    return () => clearTimeout(timer);
-  }, [currentCharIndex, currentWordIndex, isDeleting, words]);
-  const contentData1 = (
-    <div>
-      The Deerfield Township & Symmes Township, OH Portal website is your go-to
-      resource for exploring everything our city has to offer, from local
-      businesses with exclusive deals to a vibrant real estate market and
-      comprehensive job listings. It's designed to connect residents and
-      visitors alike to the community, ensuring access to the latest promotions,
-      discounts, and opportunities in Deerfield Township & Symmes Township, OH.
-    </div>
+  // Memoize schema script to prevent re-creation
+  const schemaScript = useMemo(
+    () => (
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(SCHEMA_DATA),
+        }}
+      />
+    ),
+    []
   );
 
   return (
     <Suspense fallback={<Loading />}>
       {/* Schema.org structured data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            name: "Township OH Business Directory",
-            description:
-              "Complete business directory for Township OH, Deerfield Township, Township, West Chester Township, and surrounding areas",
-            url: "https://townshipone.us",
-            potentialAction: {
-              "@type": "SearchAction",
-              target: "https://townshipone.us/search?q={search_term_string}",
-              "query-input": "required name=search_term_string",
-            },
-            areaServed: [
-              {
-                "@type": "City",
-                name: "Township",
-                addressRegion: "OH",
-                addressCountry: "US",
-              },
-              {
-                "@type": "City",
-                name: "Deerfield Township",
-                addressRegion: "OH",
-                addressCountry: "US",
-              },
-              {
-                "@type": "City",
-                name: "Township",
-                addressRegion: "OH",
-                addressCountry: "US",
-              },
-            ],
-          }),
-        }}
-      />
+      {schemaScript}
 
       <BannerSlider />
       <Search />
 
-
       <div className="container">
-        {/* Typewriter Hero Heading */}
+        {/* Typewriter Hero Heading using React Simple Typewriter */}
         <div
           className="hero-heading-wrapper"
           style={{
@@ -133,21 +118,21 @@ export default function HomeClient() {
               minHeight: "80px",
               display: "flex",
               alignItems: "center",
+              justifyContent: "center",
             }}
           >
-            {displayText}
-            <span
-              className="cursor"
-              style={{
-                borderRight: "3px solid #d28454",
-                animation: "blink 1s infinite",
-                marginLeft: "5px",
-              }}
-            >
-              |
-            </span>
+            <Typewriter
+              words={["Support and promote local businesses"]}
+              loop={0} // Infinite loop
+              cursor
+              cursorStyle="|"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={2000}
+            />
           </h1>
         </div>
+
         <h1 className="fs-5" style={{ marginTop: "20px" }}>
           Explore Local Listings & Services in Deerfield Township & Symmes
           Township, OH
@@ -209,7 +194,8 @@ export default function HomeClient() {
       <RealEstateSlider />
       <JobsGrid />
       <InformationPromotedWrapper />
-      {/* CSS Animations */}
+
+      {/* CSS for gradient animation */}
       <style jsx>{`
         @keyframes gradientShift {
           0% {
@@ -223,35 +209,8 @@ export default function HomeClient() {
           }
         }
 
-        @keyframes fadeInUp {
-          0% {
-            opacity: 0;
-            transform: translateY(30px);
-          }
-          100% {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-
-        @keyframes blink {
-          0%,
-          50% {
-            opacity: 1;
-          }
-          51%,
-          100% {
-            opacity: 0;
-          }
-        }
-
         .typewriter-heading {
           font-family: "Arial", sans-serif;
-        }
-
-        .cursor {
-          display: inline-block;
-          vertical-align: top;
         }
 
         @media (max-width: 768px) {
