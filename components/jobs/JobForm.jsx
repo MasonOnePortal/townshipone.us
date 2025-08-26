@@ -65,8 +65,7 @@ const validationSchema = Yup.object().shape({
     },
   }),
   jobType: Yup.string(),
-  email: Yup.string().email("Invalid email address"),
-  // .required("Email is required"),
+  email: Yup.string().email("Invalid email address").required("Email is required"),
 
   city: Yup.string(),
   state: Yup.string(),
