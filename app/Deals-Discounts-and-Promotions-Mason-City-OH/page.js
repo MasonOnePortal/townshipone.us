@@ -154,11 +154,19 @@ const DealSale = () => {
         <Breadcrumb pagename="Deerfield Township & Symmes Township, OH City Savings" />
         <div className="container">
           <h1 className="fs-4 mb-3">
-            Deerfield Township & Symmes Township, OH Business Deals & Promotions
+            Deerfield & Symmes Township OH Deals & Promotions
           </h1>
-          <h6>
+          {/* <h6>
             Exclusive Deals, Discounts, Promotions, and Clearance in Deerfield Township & Symmes Township, OH
-          </h6>
+          </h6> */}
+          <p className="contentCss">
+            Discover upscale savings with exclusive offers from premier Deerfield & Symmes Township OH establishments.
+            Our curated list of discounts and promotions helps you enjoy the finer things while supporting the sophisticated retailers and service providers in our township.
+
+          </p>
+          <p className="contentCss">
+            Find limited-time promotions and valuable local discounts across a variety of premium goods and services. This is your essential guide to experiencing the best of Deerfield & Symmes Township OH while enjoying exceptional value.
+          </p>
           {/* <h3 className="fs-6">
             Take advantage of these limited time offers to save big and find
             incredible deals on a wide range of products and services. Don't
@@ -179,10 +187,10 @@ const DealSale = () => {
 
           <section className="grid_container">
             <div className="row">
-              <div className="col-3">
+              <div className="col-lg-3 col-md-4 col-12 mb-3">
                 <SearchOffersInputs />
               </div>
-              <div className="col-9">
+              <div className="col-lg-9 col-md-8 col-12">
                 <DealsSaleClearance />
               </div>
             </div>

@@ -44,12 +44,13 @@ export default function NewsLayout({ children }) {
       />
       <Breadcrumb pagename={pathName} url={"/news"} />
       <div className="container">
+        <h1 className="fs-4 ">Deerfield & Symmes Township OH News</h1>
         <div className="contentCss">
           <p>
-            Stay informed with our trusted online news service, including
-            reliable news sources to deliver the latest headlines and updates,
-            including <strong> local, national and global news.</strong> right
-            at your fingertips.
+            Stay informed with the latest news from Deerfield & Symmes Township OH, plus updates from around Ohio, the US, and the world. Explore local news and top Ohio news for state-wide updates, or catch up on top US news and top 20 US news stories. Stay globally aware with top global news and top 20 global news highlights.
+          </p>
+          <p>
+            Whether it's community developments or major headlines affecting our region, we bring you the news that matters most to Deerfield & Symmes Township OH residents. Our comprehensive coverage ensures you stay informed about everything happening in and around your local community.
           </p>
         </div>
         {/* <Content contentData={contentDatas} /> */}

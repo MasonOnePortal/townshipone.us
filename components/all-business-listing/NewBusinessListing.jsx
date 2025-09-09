@@ -25,21 +25,23 @@ export const NewBusinessListing = ({ offer }) => {
         onClick={() => dispatch(updateBusinessName(offer.business))}
         className={style.wrap_our_item_data}
       >
-        <div className={style.our_items_img}>
-          <Image
-            src={
-              imageError ? imgPlaceHolder : offer.thumbnail || imgPlaceHolder
-            }
-            onError={handleImageError}
-            alt={offer.name}
-            width={0}
-            height={0}
-            sizes="100dvw"
-            style={{ width: "100%", height: "210px" }}
-          />
+        <Link href={`/businesses/${offer.category?.id}/${offer.id}`}>
+          <div className={style.our_items_img}>
+            <Image
+              src={
+                imageError ? imgPlaceHolder : offer.thumbnail || imgPlaceHolder
+              }
+              onError={handleImageError}
+              alt={offer.name}
+              width={0}
+              height={0}
+              sizes="100dvw"
+              style={{ width: "100%", height: "210px" }}
+            />
 
-          <div className={style.overlay_prdt_cl}></div>
-        </div>
+            <div className={style.overlay_prdt_cl}></div>
+          </div>
+        </Link>
         <div className={style.our_itm_dtls}>
           <h3>{offer.name}</h3>
           <p className={styles.p_styl}>{offer.description}</p>

@@ -8,10 +8,10 @@ export const CommunityContext = createContext(initialValue);
 export const CommunityProvider = ({ children }) => {
   const [activeTabContent, setActiveTabContent] = useState(
     `<p>
-        Engage with your community through our dedicated space for updates, discussions, and shared experiences. Stay informed with local announcements from <strong>Township OH</strong>.
+        Welcome to the sophisticated heart of our township — your premier space to connect, share, and stay informed. From upscale community news and exclusive announcements to shared experiences, this is where Deerfield & Symmes Township OH comes together.
       </p>
       <p>
-        Participate in Q&A sessions to share knowledge or seek advice and reconnect with lost items through our active lost and found section. Together, we’re building a stronger, more connected community. 
+        Discover stories and resources that enhance our premium community bonds. Get involved and stay connected to the finest our township has to offer. This is your digital gathering place for the Deerfield & Symmes Township OH community — always refined, always local.
       </p>`
   );
   const changeContent = (val) => {

@@ -134,17 +134,17 @@ export default function HomeClient() {
         </div>
 
         <h1 className="fs-5" style={{ marginTop: "20px" }}>
-          Explore Local Listings & Services in Deerfield Township & Symmes
-          Township, OH
+          Welcome to the Deerfield & Symmes Township OH Community Portal
         </h1>
 
         <p className="contentCss">
-          Welcome to the Deerfield Township & Symmes Township, OH Area Portal,
-          your comprehensive resource for exploring everything our vibrant
-          region has to offer.
+          Your gateway to the exceptional lifestyle and thriving commerce of
+          Deerfield & Symmes Township OH. Designed for those who value a premier
+          living experience, our portal connects you to upscale shopping,
+          diverse dining, beautiful homes, and growing career paths.
         </p>
 
-        <p className="contentCss">
+        {/* <p className="contentCss">
           Discover local deals, business and real estate listings, and job
           opportunities—all in one place. Stay updated on the latest promotions
           and community offers.
@@ -158,33 +158,34 @@ export default function HomeClient() {
           residents and visitors alike to the community, ensuring access to the
           latest promotions, discounts, and opportunities in Deerfield Township
           & Symmes Township, OH City.
-        </p>
+        </p> */}
 
         <ul className="fx-6 contentCss">
           <li>
-            <b>Uncover Exclusive Deals</b>: Discover the best deals and
-            discounts from local businesses across the region.
+            <b>Shop & Save Local</b>: Access special offers from finest
+            retailers in Deerfield & Symmes Township OH.
           </li>
           <li>
-            <b>Connect with Local Businesses</b>: Explore a diverse selection of
-            businesses offering unique products and services near you.
+            <b>Connect with Businesses</b>: Find everything from Fortune 500
+            companies to local professionals.
           </li>
           <li>
-            <b>Explore a Thriving Real Estate Market</b>: Search for your ideal
-            home across Deerfield Township & Symmes Township, OH and surrounding
-            areas.
+            <b>Find Your Place</b>: Browse real estate in the township's
+            top-rated communities.
           </li>
           <li>
-            <b>Find Your Perfect Job</b>: Browse a broad range of job
-            opportunities suited to your skills across multiple towns.
+            <b>Grow Your Career</b>: Search for positions with major employers
+            in Deerfield & Symmes Township OHio.
+          </li>
+          <li>
+            <b>Stay Informed</b>: Keep up with township news and community
+            events.
           </li>
         </ul>
 
         <p className="contentCss">
-          With our portal, connecting with the Deerfield Township & Symmes
-          Township, OH community has never been easier. Whether you're a local
-          resident, newcomer, or visitor, find everything you need to stay
-          connected, informed, and engaged with the region's dynamic offerings.
+          Discover why Deerfield & Symmes Township OH is more than just a place
+          to live—it's a place to thrive.
         </p>
       </div>
 

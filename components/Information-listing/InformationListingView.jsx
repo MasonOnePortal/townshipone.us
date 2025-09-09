@@ -35,6 +35,8 @@ function InformationListingView({ visibleFilter = false }) {
   });
   if (isFetching) return <Loading />;
 
+  console.log("informationList.data", informationList.data);
+
   return (
     <>
       <div className="grid_container">
