@@ -6,7 +6,7 @@ import { Loading } from "@/components/Loading";
 import { Suspense } from "react";
 import Content from "@/components/card/Content";
 import Link from "next/link";
-
+import Script from "next/script";
 export const metadata = {
   title: {
     absolute:
