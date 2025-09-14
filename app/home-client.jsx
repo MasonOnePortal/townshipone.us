@@ -134,14 +134,15 @@ export default function HomeClient() {
         </div>
 
         <h1 className="fs-5" style={{ marginTop: "20px" }}>
-          Welcome to the Deerfield & Symmes Township OH Community Portal
+          Welcome to the Deerfield Township OH Community Portal
         </h1>
 
         <p className="contentCss">
-          Your gateway to the exceptional lifestyle and thriving commerce of
-          Deerfield & Symmes Township OH. Designed for those who value a premier
-          living experience, our portal connects you to upscale shopping,
-          diverse dining, beautiful homes, and growing career paths.
+          Your gateway to an exceptional lifestyle and thriving commerce.
+          Designed for those who value a premier living experience, our portal
+          connects you to everything that makes{" "}
+          <strong> Deerfield Township OH</strong> a wonderful place to live,
+          work, and play.
         </p>
 
         {/* <p className="contentCss">
@@ -162,30 +163,30 @@ export default function HomeClient() {
 
         <ul className="fx-6 contentCss">
           <li>
-            <b>Shop & Save Local</b>: Access special offers from finest
-            retailers in Deerfield & Symmes Township OH.
+            <b>Shop & Save Local</b>: Access special offers from the finest
+            retailers in the area.
           </li>
           <li>
             <b>Connect with Businesses</b>: Find everything from Fortune 500
-            companies to local professionals.
+            companies to local professionals in{" "}
+            <strong> Deerfield Township OH.</strong>
           </li>
           <li>
-            <b>Find Your Place</b>: Browse real estate in the township's
+            <b>Find Your Place</b>:Browse real estate in the township's
             top-rated communities.
           </li>
           <li>
-            <b>Grow Your Career</b>: Search for positions with major employers
-            in Deerfield & Symmes Township OHio.
+            <b>Grow Your Career</b>: Search for positions with major employers.
           </li>
           <li>
-            <b>Stay Informed</b>: Keep up with township news and community
-            events.
+            <b>Stay Informed</b>: Keep up with{" "}
+            <strong> Deerfield Township OH</strong> news and community events.
           </li>
         </ul>
 
         <p className="contentCss">
-          Discover why Deerfield & Symmes Township OH is more than just a place
-          to live—it's a place to thrive.
+          Discover why this area is more than just a place to live---it's a
+          place to thrive.
         </p>
       </div>
 

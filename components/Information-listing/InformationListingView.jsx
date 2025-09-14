@@ -33,16 +33,32 @@ function InformationListingView({ visibleFilter = false }) {
     searchTerms,
     otherQuery: filterQuery,
   });
+
   if (isFetching) return <Loading />;
 
   console.log("informationList.data", informationList.data);
 
+  // --- Filter to show only Middletown city data ---
+  const allowedCities = ["deerfield", "`symmes", "township"];
+
+  const filteredData = Array.isArray(informationList?.data)
+    ? informationList.data.filter((item) => {
+        const cityName = item.city?.trim().toLowerCase();
+        return (
+          cityName &&
+          allowedCities.some((allowed) => cityName.includes(allowed))
+        );
+      })
+    : [];
+
+  console.log("filteredData.data", filteredData);
+
   return (
     <>
       <div className="grid_container">
-        {Array.isArray(informationList.data) && informationList.data.length ? (
-          <div className="row ">
-            {informationList.data.map((item) => (
+        {filteredData.length ? (
+          <div className="row">
+            {filteredData.map((item) => (
               <div
                 key={item.id}
                 className={`${
@@ -60,7 +76,7 @@ function InformationListingView({ visibleFilter = false }) {
             <Empty />
           </div>
         )}
-        {informationList.data.length > 0 ? (
+        {filteredData.length > 0 ? (
           <Pagination
             currentPage1={informationList.page}
             totalPages={informationList.totalPages}

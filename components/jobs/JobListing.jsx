@@ -23,23 +23,23 @@ function JobListing() {
         <Breadcrumb pagename="Career Opportunities" />
       </div>
       <div className="container">
-        <h1 className="fs-5 mb-3">Jobs in Deerfield & Symmes Township OH</h1>
+        <h1 className="fs-5 mb-3">Jobs in Deerfield Township OH</h1>
         {/* <h1 className="fs-6">
           Job Listings in Township OH and Surrounding Areas
         </h1> */}
         <p className="contentCss">
-          Advance your career with our curated job listings in Deerfield &
-          Symmes Township OH. Explore openings from Fortune 500 companies,
-          corporate headquarters, and professional service firms. Our platform
-          connects you to premier employers who are hiring right now in
-          Deerfield & Symmes Township OH.
+          Advance your career with our curated job listings in{" "}
+          <strong> Deerfield Township OH</strong>. Explore openings from Fortune
+          500 companies, corporate headquarters, and professional service firms.
+          Our platform connects you to premier employers who are hiring right
+          now in the area.
         </p>
         <p className="contentCss">
           Browse executive, professional, and retail opportunities across this
           thriving commercial hub. Whether you're building a long-term career or
           searching for a new position, our portal makes it easy to explore
-          high-quality career opportunities in the Deerfield & Symmes Township
-          OH job market.
+          high-quality career opportunities in the{" "}
+          <strong> Deerfield Township OH</strong> job market.
         </p>
         {/* <Content contentData="Discover job openings and vacancies spanning diverse industries and businesses. Whether you're looking to embark on a new career path or transition to a different job, you'll find the opportunities that align with your skills and interests. " /> */}
       </div>
