@@ -143,40 +143,33 @@ const BusinessList = () => {
             </div>
           </div>
         </div>
-        {/* <div>
-          <h1 className="fs-4 mb-3">Deerfield Township & Symmes Township, OH Business Directory</h1>
-          <h1 className="fs-6">
-            Business Listings in Township OH and Surrounding Areas
+
+        <div className="container">
+          <h1 className="fs-5">
+            Deerfield Township OH & Symmes Township OH Business Directory: A
+            Premier Commercial Hub
           </h1>
 
-          <div className="contentCss">
-            <p>
-              Explore a wide range of business listings in{" "}
-              <strong>
-                Township, Deerfield Township, Township, West Chester Township,
-                Symmes Township, Landen, and Township.
-              </strong>
-              Our community features a diverse array of businesses across
-              various categories, offering convenient access to local services,
-              shops, and more.
-            </p>
-            <p>
-              Discover what each town has to offer with our comprehensive
-              listings designed to connect you with the best of the 
-              Township area.
-            </p>
-          </div>
-        </div> */}
-        <div className="container">
-          <h1 className="fs-5">Deerfield & Symmes Township OH Business Directory: A Premier Commercial Hub</h1>
-          {/* <h6>Business Listings in Deerfield Township & Symmes Township, OH and Surrounding Areas</h6> */}
           <p>
-            Experience the pinnacle of commerce and convenience with the official Deerfield & Symmes Township OH business directory. From upscale retailers at the Streets of West Chester and corporate headquarters to expert professional services, our listings connect you to a world-class economic center right here in Deerfield & Symmes TownshipOHio.
+            Experience the pinnacle of commerce and convenience with the
+            official
+            <strong> Deerfield Township OH & Symmes Township OH</strong>{" "}
+            business directory. From upscale retailers at the Streets of West
+            Chester and corporate headquarters to expert professional services,
+            our listings connect you to a world-class economic center right here
+            in
+            <strong> Deerfield Township OH & Symmes Township OH, Ohio</strong>.
           </p>
+
           <p>
-            Browse our complete directory to explore the diverse array of national brands and exceptional local Deerfield & Symmes Township OH businesses. Find everything you need to work, shop, and thrive within our prosperous community.
+            Browse our complete directory to explore the diverse array of
+            national brands and exceptional local businesses throughout{" "}
+            <strong>Deerfield Township OH & Symmes Township OH</strong>. Find
+            everything you need to work, shop, and thrive within our prosperous
+            community.
           </p>
         </div>
+
         <div>
           <AllBusinessListing />
         </div>

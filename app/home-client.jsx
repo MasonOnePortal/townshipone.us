@@ -134,32 +134,17 @@ export default function HomeClient() {
         </div>
 
         <h1 className="fs-5" style={{ marginTop: "20px" }}>
-          Welcome to the Deerfield Township OH Community Portal
+          Welcome to the Deerfield Township OH & Symmes Township OH Community
+          Portal
         </h1>
 
         <p className="contentCss">
           Your gateway to an exceptional lifestyle and thriving commerce.
           Designed for those who value a premier living experience, our portal
-          connects you to everything that makes{" "}
-          <strong> Deerfield Township OH</strong> a wonderful place to live,
-          work, and play.
+          connects you to everything that makes
+          <strong>Deerfield Township OH & Symmes Township OH</strong> a
+          wonderful place to live, work, and play.
         </p>
-
-        {/* <p className="contentCss">
-          Discover local deals, business and real estate listings, and job
-          opportunities—all in one place. Stay updated on the latest promotions
-          and community offers.
-        </p>
-
-        <p className="contentCss">
-          The Deerfield Township & Symmes Township, OH City Portal website is
-          your go-to resource for exploring everything our city has to offer,
-          from local businesses with exclusive deals to a vibrant real estate
-          market and comprehensive job listings. It's designed to connect
-          residents and visitors alike to the community, ensuring access to the
-          latest promotions, discounts, and opportunities in Deerfield Township
-          & Symmes Township, OH City.
-        </p> */}
 
         <ul className="fx-6 contentCss">
           <li>
@@ -168,11 +153,11 @@ export default function HomeClient() {
           </li>
           <li>
             <b>Connect with Businesses</b>: Find everything from Fortune 500
-            companies to local professionals in{" "}
-            <strong> Deerfield Township OH.</strong>
+            companies to local professionals in
+            <strong>Deerfield Township OH & Symmes Township OH</strong>.
           </li>
           <li>
-            <b>Find Your Place</b>:Browse real estate in the township's
+            <b>Find Your Place</b>: Browse real estate in the township's
             top-rated communities.
           </li>
           <li>
@@ -180,13 +165,14 @@ export default function HomeClient() {
           </li>
           <li>
             <b>Stay Informed</b>: Keep up with{" "}
-            <strong> Deerfield Township OH</strong> news and community events.
+            <strong>Deerfield Township OH & Symmes Township OH</strong> news and
+            community events.
           </li>
         </ul>
 
         <p className="contentCss">
-          Discover why this area is more than just a place to live---it's a
-          place to thrive.
+          Discover why this area is more than just a place to live—it's a place
+          to thrive.
         </p>
       </div>
 

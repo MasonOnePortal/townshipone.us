@@ -153,30 +153,25 @@ const DealSale = () => {
         <Breadcrumb pagename="Deerfield Township & Symmes Township, OH City Savings" />
         <div className="container">
           <h1 className="fs-4 mb-3">
-            Deerfield Township OH Deals & Promotions
+            Deerfield Township OH & Symmes Township OH Deals & Promotions
           </h1>
-          {/* <h6>
-            Exclusive Deals, Discounts, Promotions, and Clearance in Deerfield Township & Symmes Township, OH
-          </h6> */}
+
           <p className="contentCss">
             Discover upscale savings with exclusive offers from premier
-            <strong> Deerfield Township OH</strong> establishments. Our curated
-            list of discounts and promotions helps you enjoy the finer things
-            while supporting the sophisticated retailers and service providers
-            in our township.
+            <strong> Deerfield Township OH & Symmes Township OH</strong>{" "}
+            establishments. Our curated list of discounts and promotions helps
+            you enjoy the finer things in life while supporting the
+            sophisticated retailers and service providers in our community.
           </p>
+
           <p className="contentCss">
             Find limited-time promotions and valuable local discounts across a
             variety of premium goods and services. This is your essential guide
-            to experiencing the best of <strong> Deerfield Township OH</strong>{" "}
+            to experiencing the best of
+            <strong> Deerfield Township OH & Symmes Township OH</strong>, all
             while enjoying exceptional value.
           </p>
-          {/* <h3 className="fs-6">
-            Take advantage of these limited time offers to save big and find
-            incredible deals on a wide range of products and services. Don't
-            miss out on the opportunity to get more for your money while
-            supporting local businesses in our community.
-          </h3> */}
+
           <OfferPageContent />
           <div className="row">
             <div className="col-md-6 col-12"></div>

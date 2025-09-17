@@ -25,10 +25,13 @@ function RealEstate() {
         <Breadcrumb pagename="Realty Listings" />
       </div>
       <div className="container">
-        <h1 className="fs-4 mb-3">Real Estate in Deerfield Township OH</h1>
-        {/* <h4 className="fs-6">Real Estate Listings in Deerfield Township & Symmes Township, OH OH</h4> */}
-        <Content contentData="Discover premium real estate opportunities in sophisticated <strong> Deerfield Township OH</strong>. Explore upscale residences, executive homes, and luxury properties in this desirable community. Find exceptional options that match the high standards of living here." />
-        <Content contentData="Connect with top-tier agents and browse exclusive property listings. Whether you're seeking an elegant estate or sophisticated condo, our portal is your premier resource for entering the exclusive <strong> Deerfield Township OH</strong> real estate market." />
+        <h1 className="fs-4 mb-3">
+          Real Estate in Deerfield Township OH & Symmes Township OH
+        </h1>
+
+        <Content contentData="Discover premium real estate opportunities in sophisticated <strong>Deerfield Township OH & Symmes Township OH</strong>. Explore upscale residences, executive homes, and luxury properties in these desirable communities. Find exceptional options that match the high standards of living here." />
+
+        <Content contentData="Connect with top-tier agents and browse exclusive property listings. Whether you're seeking an elegant estate or a sophisticated condo, our portal is your premier resource for entering the exclusive <strong>Deerfield Township OH & Symmes Township OH</strong> real estate market." />
       </div>
 
       <div className={style.for_grid_view}>
