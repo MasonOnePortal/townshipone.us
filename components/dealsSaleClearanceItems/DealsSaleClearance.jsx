@@ -43,7 +43,7 @@ function DealsSaleClearance() {
   const searchZips = parseInt(searchParams.get("filter_zipcode"));
   const searchTerms = searchParams.get("searchName") || "";
   const searchProduct = searchParams.get("filter_product") || "";
-  const filterCity = searchParams.get("filterCity") || "";
+  let filterCity = searchParams.get("filterCity") || "";
   const businessName = searchParams.get("businessName") || "";
   const pageNo = searchParams.get("page") || 1;
 
@@ -52,7 +52,7 @@ function DealsSaleClearance() {
     searchTerms,
     searchZips,
     searchProduct,
-    filterCity,
+    filterCity = "township",
     businessName
   );
 

@@ -18,7 +18,10 @@ function InformationListingView({ visibleFilter = false }) {
     : "";
 
   const { searchName, ...rest } = getQueryParamsAsObject(searchParams);
-  const filterQuery = new URLSearchParams(rest).toString();
+  const filterQuery = new URLSearchParams({
+    ...rest,
+    filterCity: "township",
+  }).toString();
 
   const { id } = params;
   const { data: infoDetail } = useGetOneInformationQuery(id);
